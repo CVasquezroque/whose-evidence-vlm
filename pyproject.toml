@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evidence-ownership"
+version = "0.1.0"
+description = "Evidence ownership under target occlusion in vision-language models: a controlled two-person factorial benchmark on COCO 2017."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT (code only; see README for data and model terms)" }
+authors = [{ name = "Carlos Eduardo Vasquez" }]
+dependencies = [
+  "numpy>=1.26",
+  "pillow>=10",
+  "pyyaml>=6",
+  "tqdm>=4.66",
+  "pandas>=2",
+  "scipy>=1.11",
+  "matplotlib>=3.8",
+  "pycocotools>=2.0.7",
+]
+
+[project.optional-dependencies]
+inference = ["torch>=2.4", "transformers>=5.0", "accelerate>=1.0", "safetensors>=0.4"]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["gpu: requires an authorized CUDA device and the local model checkpoint"]

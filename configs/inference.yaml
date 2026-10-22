@@ -1,0 +1,32 @@
+dtype: bfloat16
+quantization: null
+enable_thinking: false
+generation:
+  do_sample: false
+  max_new_tokens: 32
+  num_beams: 1
+  temperature: null
+  top_p: null
+  top_k: null
+batch_size: 1
+device: "cuda:0"       # index within CUDA_VISIBLE_DEVICES; select the physical GPU with CUDA_VISIBLE_DEVICES
+attn_implementation: sdpa
+offline: true          # HF_HUB_OFFLINE / TRANSFORMERS_OFFLINE; never download at inference time
+max_technical_retries: 2   # retries only for exceptions (OOM, CUDA errors), never for answer content
+
+prompts:
+  system: >-
+    You annotate directly observable visual properties. Use only the provided image. Do not infer a
+    hidden property from another person, other clothing, context, or prior knowledge. Opaque gray
+    overlays represent unavailable pixels, not clothing. If the requested property is not directly
+    visible for the designated person, output UNKNOWN. Return only the requested JSON object.
+  user: >-
+    The two people are marked A and B. For person {target}, what is the dominant color of the
+    outermost upper-body garment covering their torso? Choose one value: black, white, gray, red,
+    orange, yellow, green, blue, purple, pink, brown, UNKNOWN. Return exactly {{"label":"VALUE"}}.
+
+parser:
+  mode: strict_json        # json.loads(raw.strip()) -> dict with exactly one key "label" in vocabulary
+  # D-013 (smoke test, before any pilot outcome): accept exactly one ```json ... ``` fence around the
+  # object. Content is never repaired; wrong keys / other text remain invalid.
+  allow_json_fence: true

@@ -1,0 +1,63 @@
+# --- Local machine configuration (contains absolute paths) ---
+configs/paths.yaml
+.env
+.env.*
+!.env.example
+
+# --- Credentials: never commit ---
+*.token
+.huggingface/
+hf_token*
+.netrc
+*.pem
+*.key
+
+# --- External assets: live outside the repository (see configs/paths.example.yaml) ---
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.zip
+*.tar
+*.tgz
+*.tar.gz
+*.jpg
+*.jpeg
+*.npy
+*.npz
+*.parquet
+*.pdf
+coco/
+model/
+models/
+data/coco/
+rendered/
+runs/
+work/
+
+
+# PNGs are only allowed in curated locations (synthetic examples and summary figures)
+*.png
+!examples/**/*.png
+!figures/*.png
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp

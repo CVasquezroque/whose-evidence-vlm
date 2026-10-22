@@ -1,0 +1,63 @@
+# Experimental protocol constants. Source: the pre-specified design assessment
+# (provenance/protocol/proposed_protocol_v1.0.json, 2026-10-22), Section V of its report.
+# Changing anything here after the pilot requires an entry in provenance/decision_log.csv and a new
+# protocol version. Never change it after opening held-out outputs.
+protocol_version: "1.0-frozen"
+protocol_status: FROZEN   # 2026-10-22, provenance/protocol/freeze_1.0-frozen.json (D-020); no pilot revision
+
+hash_salt: "fatima-evidence-2026-v1:"   # candidate order key = sha256(salt + str(image_id))
+# Implementation choices not fixed verbatim by the design assessment (provenance/decision_log.csv, D-003..D-005):
+ab_assignment_salt: "fatima-evidence-2026-v1:ab-assignment:"   # bit 0 -> A is the left person
+robustness_salt: "fatima-evidence-2026-v1:robustness:"         # first 20 eligible held-out by this key
+
+splits:
+  pilot: {coco_split: train2017, target_scenes: 20}
+  heldout: {coco_split: val2017, target_scenes: 80, expanded_target_scenes: 200}
+robustness_subset_scenes: 20
+
+eligibility:
+  exact_person_count: 2
+  allow_crowd: false
+  person_bbox_iou_max_exclusive: 0.05
+  min_garment_width_px: 48      # measured on the final canvas
+  min_garment_height_px: 48
+  min_garment_area_px: 2304
+  max_masked_canvas_fraction: 0.25
+  # A02 / D-021: renderer inclusion screen and nested analysis cohorts (exploratory)
+  inclusion_screen: {min_w: 32, min_h: 32, min_area: 900}
+  size_cohorts:
+    original: {min_w: 48, min_h: 48, min_area: 2304}
+    moderate: {min_w: 40, min_h: 40, min_area: 1500}
+    expanded: {min_w: 32, min_h: 32, min_area: 900}
+  required_human_raters: 2
+
+rendering:
+  canvas: [1024, 1024]
+  upscale: false
+  resample: LANCZOS
+  padding_rgb: [128, 128, 128]
+  occluder_rgb: [128, 128, 128]
+  mask_dilation_square_radius_px: 4
+  format: PNG
+
+labels: [black, white, gray, red, orange, yellow, green, blue, purple, pink, brown, UNKNOWN]
+garment_colors: [black, white, gray, red, orange, yellow, green, blue, purple, pink, brown]
+
+conditions:
+  I11: {A: visible, B: visible, masks: [S_A, S_B]}
+  I01: {A: hidden,  B: visible, masks: [M_A, S_B]}
+  I10: {A: visible, B: hidden,  masks: [S_A, M_B]}
+  I00: {A: hidden,  B: hidden,  masks: [M_A, M_B]}
+
+analysis:
+  bootstrap_resamples: 10000
+  seed: 20261022
+  ci: 0.95
+  practically_substantial_psi: 0.10
+  valid_json_min: 0.99
+
+pilot_gates:
+  clean_accuracy_min: 0.85
+  isolated_accuracy_min: 0.85
+  max_sham_accuracy_drop: 0.10
+  valid_json_min: 0.99

@@ -1,0 +1,15 @@
+model_id: Qwen/Qwen3.5-4B
+revision: 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a
+processor_revision: 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a
+architecture: Qwen3_5ForConditionalGeneration
+auto_class: AutoModelForMultimodalLM
+license: Apache-2.0
+# Verified 2026-10-22 on the study GPU server (provenance/environment/):
+stored_tensor_elements: 4659865088        # sum over both safetensors shard headers
+stored_vision_tensor_elements: 333514240  # model.visual.*
+stored_mtp_tensor_elements: 120599552     # mtp.* (multi-token prediction head; not loaded by transformers)
+loaded_unique_parameters: 4539265536      # built on meta device; tied embeddings counted once
+# Sanity anchors for loading (LFS sha256 of the shards at the pinned revision)
+shard_sha256:
+  model.safetensors-00001-of-00002.safetensors: 26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61
+  model.safetensors-00002-of-00002.safetensors: cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188
