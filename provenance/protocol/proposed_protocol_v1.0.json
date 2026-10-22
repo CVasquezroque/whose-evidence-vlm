@@ -1,0 +1,100 @@
+{
+  "status": "PROPOSED; freeze and timestamp after pilot, before held-out inference",
+  "version": "1.0-proposed",
+  "report": "RESEARCH_DECISION_REPORT.md",
+  "question": "Does removing target garment evidence increase sensitivity of target-specific concept annotation to another person's garment evidence?",
+  "model": {
+    "id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "processor_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "verified_stored_tensor_elements": 4659865088,
+    "verified_vision_tensor_elements": 333514240,
+    "dtype": "bfloat16",
+    "quantization": null,
+    "enable_thinking": false,
+    "do_sample": false,
+    "max_new_tokens": 32,
+    "batch_size": 1,
+    "runtime_lock": "UNVERIFIED: populate from successful GPU smoke test"
+  },
+  "data": {
+    "source": "COCO 2017 instances and licensed source images",
+    "pilot_split": "train2017",
+    "pilot_images": 20,
+    "heldout_split": "val2017",
+    "minimum_heldout_clusters": 80,
+    "expanded_heldout_clusters": 200,
+    "expanded_n_rule": "Choose before held-out inference using feasibility and pilot variance, never held-out effects",
+    "robustness_subset_images": 20,
+    "ordering": "ascending SHA256 of UTF-8 fatima-evidence-2026-v1: followed by unpadded decimal image_id",
+    "eligibility": "Full rubric in report Section V; exactly two actual people, distinct clear dominant garment colors, independent human audit",
+    "person_bbox_iou_max_exclusive": 0.05,
+    "minimum_garment_width_pixels": 48,
+    "minimum_garment_height_pixels": 48,
+    "minimum_garment_area_pixels": 2304,
+    "maximum_masked_canvas_fraction": 0.25,
+    "required_human_raters": 2,
+    "candidate_yield_is_not_validated_final_yield": true
+  },
+  "rendering": {
+    "canvas": [1024, 1024],
+    "upscale": false,
+    "padding_rgb": [128, 128, 128],
+    "occluder_rgb": [128, 128, 128],
+    "mask_margin_square_radius_pixels": 4,
+    "mask_alpha": 255,
+    "mask_antialiasing": false,
+    "format": "PNG",
+    "sham": "identical binary shape translated by integer pixels into audited background",
+    "processor_constraints": "Freeze after smoke test; same processed dimensions for every condition"
+  },
+  "conditions": {
+    "I11": ["S_A", "S_B"],
+    "I01": ["M_A", "S_B"],
+    "I10": ["S_A", "M_B"],
+    "I00": ["M_A", "M_B"]
+  },
+  "query_targets_per_condition": ["A", "B"],
+  "role_mapping": "For target B, reverse the A/B availability coordinates when computing target/donor availability",
+  "labels": ["black", "white", "gray", "red", "orange", "yellow", "green", "blue", "purple", "pink", "brown", "UNKNOWN"],
+  "prompts": {
+    "system": "You annotate directly observable visual properties. Use only the provided image. Do not infer a hidden property from another person, other clothing, context, or prior knowledge. Opaque gray overlays represent unavailable pixels, not clothing. If the requested property is not directly visible for the designated person, output UNKNOWN. Return only the requested JSON object.",
+    "user": "The two people are marked A and B. For person {A_or_B}, what is the dominant color of the outermost upper-body garment covering their torso? Choose one value: black, white, gray, red, orange, yellow, green, blue, purple, pink, brown, UNKNOWN. Return exactly {\"label\":\"VALUE\"}.",
+    "parser": "Strict JSON after trimming whitespace; one label string from the exact vocabulary. Retain invalid outputs; no semantic repair. Any pilot normalization must be documented and frozen."
+  },
+  "estimand": {
+    "R": "1 if output equals the other person's original garment color, else 0; invalid outputs tracked separately",
+    "delta_hidden": "mean(R01 - R00)",
+    "delta_visible": "mean(R11 - R10)",
+    "psi": "delta_hidden - delta_visible",
+    "image_weighting": "Average target A and target B contrasts within image; equally weight independent source clusters",
+    "primary_support": "Both psi and delta_hidden lower two-sided 95% confidence bounds > 0, and valid controls",
+    "practically_substantial_psi": 0.1,
+    "interpretation": "Behavioral evidence dependence under the specified intervention; not identification of a neural copying mechanism"
+  },
+  "uncertainty": {
+    "unit": "source-image or near-duplicate source cluster",
+    "bootstrap_resamples": 10000,
+    "seed": 20261022,
+    "interval": "two-sided 95% percentile bootstrap",
+    "invalid_output_analysis": "Adversarial lower/upper bounds for contrasts; no complete-case deletion",
+    "rare_event_caveat": "Zero bootstrap width is not zero population uncertainty; report exact scene-event occurrence bounds"
+  },
+  "required_controls": ["clean marked image", "both-sham", "both-hidden", "same-image target swap", "same-scale target isolation", "tag reversal on predetermined 20 scenes"],
+  "core_generations_per_image": 12,
+  "extra_tag_reversal_generations_per_subset_image": 8,
+  "minimum_main_generations": 1120,
+  "expanded_main_generations": 2560,
+  "pilot_gates": {
+    "clean_accuracy_min": 0.85,
+    "isolated_accuracy_min": 0.85,
+    "max_sham_accuracy_drop": 0.1,
+    "valid_json_min": 0.99,
+    "hypothesis_effect_size_gate": null,
+    "maximum_design_revision_rounds": 1,
+    "other_requirements": "Two independent human audits, adequate held-out yield, GPU smoke test, feasible time and memory; no model selection by failure magnitude"
+  },
+  "heldout_freeze_required": ["dependency lock", "processor and generation configuration", "prompt and parser", "all image and mask hashes", "source and duplicate cluster IDs", "annotations", "exclusions", "sample size", "analysis scripts"],
+  "actual_vlm_inference_completed": false,
+  "final_annotation_yield_verified": false
+}
