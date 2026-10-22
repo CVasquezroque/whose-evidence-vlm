@@ -1,0 +1,29 @@
+:root { --bg:#14161a; --panel:#1d2026; --fg:#e8e8e8; --muted:#9aa0a6; --accent:#4c9ffe; --warn:#ffb74d; --bad:#ef5350; --ok:#66bb6a; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:14px/1.4 system-ui, sans-serif; }
+header { display:flex; flex-wrap:wrap; gap:8px; align-items:center; padding:8px 12px; background:var(--panel); position:sticky; top:0; z-index:2; }
+main { display:flex; gap:12px; padding:12px; align-items:flex-start; }
+#stagewrap { flex:1 1 auto; min-width:0; }
+#stage { width:100%; max-width:min(1024px, calc(100vh - 140px)); height:auto; display:block; background:#808080; cursor:crosshair; image-rendering:pixelated; }
+#panel { flex:0 0 380px; background:var(--panel); padding:10px 12px; border-radius:6px; max-height:calc(100vh - 80px); overflow:auto; }
+#toolbar { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:6px; }
+.group { display:flex; gap:4px; align-items:center; flex-wrap:wrap; }
+button, select, input, textarea { background:#2a2e36; color:var(--fg); border:1px solid #3a3f48; border-radius:4px; padding:4px 8px; font:inherit; }
+button:hover { border-color:var(--accent); }
+button.active { background:var(--accent); color:#000; border-color:var(--accent); }
+button.primary { background:var(--ok); color:#000; }
+textarea { width:100%; margin-top:6px; }
+h3 { margin:12px 0 4px; font-size:13px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); }
+.small { font-size:12px; }
+.muted { color:var(--muted); }
+.ok { color:var(--ok); } .bad { color:var(--bad); } .warn { color:var(--warn); }
+.person { border-left:4px solid; padding:4px 8px; margin:6px 0; }
+.person.A { border-color:#ffc800; } .person.B { border-color:#00c8ff; }
+.swatches { display:flex; flex-wrap:wrap; gap:3px; margin:4px 0; }
+.sw { width:28px; height:22px; border-radius:3px; border:2px solid transparent; cursor:pointer; font-size:9px; display:flex; align-items:flex-end; justify-content:center; }
+.sw.sel { border-color:#fff; outline:2px solid var(--accent); }
+.polylist button { padding:0 6px; margin-left:4px; }
+label.chk { display:block; margin:3px 0; }
+.stage { border:1px solid #3a3f48; border-radius:5px; padding:6px 8px; margin:8px 0; }
+.stage.locked { opacity:.65; }
+.stage h4 { margin:0 0 4px; }

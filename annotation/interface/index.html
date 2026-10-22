@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Evidence Ownership Annotator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <strong>Evidence Ownership Annotator</strong>
+  <label>Split <select id="split"></select></label>
+  <label>Role <select id="role"></select></label>
+  <label>Your initials <input id="annotator" size="6" placeholder="e.g. CV"></label>
+  <button id="prev" title="Previous scene (p)">◀</button>
+  <select id="scene"></select>
+  <button id="next" title="Next scene (n)">▶</button>
+  <span id="savestate" class="muted"></span>
+  <button id="save" class="primary" title="Ctrl+S">Save</button>
+</header>
+
+<main>
+  <section id="stagewrap">
+    <div id="toolbar">
+      <span class="group" id="authortools">
+        <button data-person="A" class="pbtn">Person A (1)</button>
+        <button data-person="B" class="pbtn">Person B (2)</button>
+        |
+        <button data-mode="draw" class="mbtn">Draw polygon (d)</button>
+        <button data-mode="edit" class="mbtn">Edit vertices (e)</button>
+        <button data-mode="sham" class="mbtn">Move sham (s)</button>
+        <span id="samtools" hidden>
+          |
+          <button data-mode="sam" class="mbtn" title="click = garment, Shift+click = NOT garment">SAM points (m)</button>
+          <button id="samaccept" class="primary" title="Replace this person's polygons with the SAM proposal (a)">Accept SAM (a)</button>
+          <button id="samclear">Clear points</button>
+          <span id="samstate" class="small muted"></span>
+        </span>
+        |
+        <button id="propose">Propose sham</button>
+      </span>
+      <span class="group">
+        View:
+        <button data-view="orig" class="vbtn">Original</button>
+        <button data-view="I11" class="vbtn">I11</button>
+        <button data-view="I01" class="vbtn">I01</button>
+        <button data-view="I10" class="vbtn">I10</button>
+        <button data-view="I00" class="vbtn">I00</button>
+        <label><input type="checkbox" id="showoverlay" checked> overlays (o)</label>
+      </span>
+    </div>
+    <canvas id="stage" width="1024" height="1024"></canvas>
+    <p class="muted small" id="hint"></p>
+  </section>
+
+  <aside id="panel">
+    <div id="authorpanel">
+      <h3>Scene</h3>
+      <div id="sceneinfo" class="small"></div>
+      <h3>Garments</h3>
+      <div id="persons"></div>
+      <h3>Mask budget (preview)</h3>
+      <div id="metrics" class="small"></div>
+      <h3>Eligibility checks</h3>
+      <div id="checks" class="small"></div>
+      <h3>Decision</h3>
+      <div id="decision"></div>
+      <div id="reasons" class="small"></div>
+      <textarea id="notes" rows="3" placeholder="Notes (exclusion details, ambiguity, near-duplicates)"></textarea>
+      <div id="completeness" class="small"></div>
+    </div>
+
+    <div id="reviewpanel" hidden>
+      <h3>Blinded staged review</h3>
+      <p class="small muted">Answer each stage, then lock it. You cannot see the next image until you lock the current stage. Locked answers cannot be changed.</p>
+      <label class="small"><input type="checkbox" id="was_author"> I also authored the masks for this scene</label>
+      <div id="stages"></div>
+    </div>
+  </aside>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
