@@ -1,0 +1,384 @@
+{
+  "schema": "eob.annotation.v1",
+  "role": "author",
+  "annotator_id": "CEVR",
+  "scene_id": "train2017-000000574217",
+  "source_image_id": 574217,
+  "coco_split": "train2017",
+  "decision": "reject",
+  "reject_reasons": [
+    "same_color"
+  ],
+  "checks": {
+    "exactly_two_people": true,
+    "boxes_correct": true,
+    "single_outer_garment_A": true,
+    "single_outer_garment_B": true,
+    "dominant_color_A": true,
+    "dominant_color_B": true,
+    "colors_differ": true,
+    "fully_coverable": true,
+    "designation_clear": true,
+    "sham_background_ok": true
+  },
+  "persons": {
+    "A": {
+      "color": "blue",
+      "color_confidence": "certain",
+      "garment_polygons_orig": [
+        [
+          [
+            530.5,
+            171
+          ],
+          [
+            538,
+            170.5
+          ],
+          [
+            548,
+            176.5
+          ],
+          [
+            558.5,
+            186
+          ],
+          [
+            565.5,
+            195
+          ],
+          [
+            575.5,
+            214
+          ],
+          [
+            580.5,
+            247
+          ],
+          [
+            580.5,
+            297
+          ],
+          [
+            572,
+            310.5
+          ],
+          [
+            556,
+            322.5
+          ],
+          [
+            545,
+            328.5
+          ],
+          [
+            536,
+            328.5
+          ],
+          [
+            529,
+            325.5
+          ],
+          [
+            515,
+            325.5
+          ],
+          [
+            503,
+            321.5
+          ],
+          [
+            491,
+            322.5
+          ],
+          [
+            483,
+            318.5
+          ],
+          [
+            474.5,
+            308
+          ],
+          [
+            475,
+            302.5
+          ],
+          [
+            507,
+            301.5
+          ],
+          [
+            514,
+            298.5
+          ],
+          [
+            522,
+            297.5
+          ],
+          [
+            527.5,
+            294
+          ],
+          [
+            525,
+            291.5
+          ],
+          [
+            508,
+            287.5
+          ],
+          [
+            499,
+            283.5
+          ],
+          [
+            491,
+            275.5
+          ],
+          [
+            479,
+            279.5
+          ],
+          [
+            474,
+            279.5
+          ],
+          [
+            472.5,
+            278
+          ],
+          [
+            472.5,
+            269
+          ],
+          [
+            475.5,
+            253
+          ],
+          [
+            483.5,
+            238
+          ],
+          [
+            492.5,
+            212
+          ],
+          [
+            491.5,
+            203
+          ],
+          [
+            505.5,
+            186
+          ],
+          [
+            514,
+            178.5
+          ],
+          [
+            523,
+            171.5
+          ],
+          [
+            527,
+            172.5
+          ]
+        ]
+      ],
+      "notes": "",
+      "mask_source": "sam_assisted",
+      "edited_after_sam": false,
+      "sam_assist": {
+        "score": 1.0282256603240967,
+        "mask_area_px": 12505,
+        "candidates": [
+          {
+            "score": 1.0282256603240967,
+            "area_px": 12505
+          }
+        ],
+        "selection_rule": "SAM-HQ internal max-IoU multimask (1 point) or single mask (>1 point)",
+        "points_orig": [
+          [
+            523.36,
+            240.11
+          ],
+          [
+            540.76,
+            210.52
+          ]
+        ],
+        "labels": [
+          1,
+          1
+        ],
+        "multimask_index": 0,
+        "model": "sam-hq_vit_l",
+        "checkpoint": "sam_hq_vit_l.pth",
+        "checkpoint_sha256": "e1a6c385d62bf005ded91a54d5ec55c985cfc4103ef89c08d90f39f04934c343",
+        "device": "cuda:0",
+        "cuda_visible_devices": "1",
+        "torch": "2.11.0+cu128",
+        "simplify_tol_px": 1,
+        "min_component_px": 64,
+        "accepted_utc": "2026-10-22T09:58:11.699Z"
+      }
+    },
+    "B": {
+      "color": "blue",
+      "color_confidence": "probable",
+      "garment_polygons_orig": [
+        [
+          [
+            72.5,
+            212
+          ],
+          [
+            78,
+            211.5
+          ],
+          [
+            92,
+            216.5
+          ],
+          [
+            97.5,
+            222
+          ],
+          [
+            99.5,
+            227
+          ],
+          [
+            109.5,
+            236
+          ],
+          [
+            113.5,
+            242
+          ],
+          [
+            116.5,
+            250
+          ],
+          [
+            116.5,
+            267
+          ],
+          [
+            120.5,
+            289
+          ],
+          [
+            120.5,
+            299
+          ],
+          [
+            116,
+            302.5
+          ],
+          [
+            112.5,
+            302
+          ],
+          [
+            107,
+            284.5
+          ],
+          [
+            92,
+            287.5
+          ],
+          [
+            90.5,
+            289
+          ],
+          [
+            90.5,
+            297
+          ],
+          [
+            89,
+            298.5
+          ],
+          [
+            62,
+            295.5
+          ],
+          [
+            58.5,
+            293
+          ],
+          [
+            53.5,
+            259
+          ],
+          [
+            52.5,
+            238
+          ],
+          [
+            57.5,
+            225
+          ],
+          [
+            65,
+            217.5
+          ],
+          [
+            70,
+            215.5
+          ]
+        ]
+      ],
+      "notes": "",
+      "mask_source": "sam_assisted",
+      "edited_after_sam": false,
+      "sam_assist": {
+        "score": 0.9917113184928894,
+        "mask_area_px": 4477,
+        "candidates": [
+          {
+            "score": 0.9917113184928894,
+            "area_px": 4477
+          }
+        ],
+        "selection_rule": "SAM-HQ internal max-IoU multimask (1 point) or single mask (>1 point)",
+        "points_orig": [
+          [
+            79.53,
+            245.87
+          ],
+          [
+            81.27,
+            271.44
+          ]
+        ],
+        "labels": [
+          1,
+          1
+        ],
+        "multimask_index": 0,
+        "model": "sam-hq_vit_l",
+        "checkpoint": "sam_hq_vit_l.pth",
+        "checkpoint_sha256": "e1a6c385d62bf005ded91a54d5ec55c985cfc4103ef89c08d90f39f04934c343",
+        "device": "cuda:0",
+        "cuda_visible_devices": "1",
+        "torch": "2.11.0+cu128",
+        "simplify_tol_px": 1,
+        "min_component_px": 64,
+        "accepted_utc": "2026-10-22T09:58:23.491Z"
+      }
+    }
+  },
+  "sham_translations_canvas": {
+    "A": null,
+    "B": null
+  },
+  "review": {},
+  "rater_was_mask_author": null,
+  "notes": "",
+  "created_utc": "2026-10-22T09:59:23+00:00",
+  "updated_utc": "2026-10-22T10:12:19+00:00",
+  "tool_version": "eob-annotator-0.1"
+}

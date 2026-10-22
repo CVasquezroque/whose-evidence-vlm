@@ -1,0 +1,21 @@
+{
+  "examined": 5,
+  "no_author_record": 288,
+  "author_not_eligible": 4,
+  "rater_fail": 0,
+  "rater_disagreement": 0,
+  "awaiting_raters": 0,
+  "near_duplicate": 0,
+  "no_verified_image": 0,
+  "selected": 1,
+  "not_examined_after_target": 0,
+  "mode": "exploratory",
+  "target": 80,
+  "robustness_n": 20,
+  "annotation_status_counts": {
+    "two_rater_agreed": 0,
+    "exploratory_single_rater": 1
+  },
+  "target_reached": false,
+  "created_utc": "2026-10-22T11:07:13+00:00"
+}

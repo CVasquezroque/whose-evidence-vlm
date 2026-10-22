@@ -1,0 +1,2 @@
+Photo: COCO 2017 train 149314 (Flickr 6576248219), CC BY-SA 2.0; modified (gray evidence masks, shams, A/B markers). Derivative shared under CC BY-SA 2.0.
+Original: https://www.flickr.com/photo.gne?id=6576248219

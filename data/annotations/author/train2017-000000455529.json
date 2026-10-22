@@ -1,0 +1,37 @@
+{
+  "schema": "eob.annotation.v1",
+  "role": "author",
+  "annotator_id": "CEVR",
+  "scene_id": "train2017-000000455529",
+  "source_image_id": 455529,
+  "coco_split": "train2017",
+  "decision": "reject",
+  "reject_reasons": [
+    "no_clear_garment"
+  ],
+  "checks": {},
+  "persons": {
+    "A": {
+      "color": null,
+      "color_confidence": null,
+      "garment_polygons_orig": [],
+      "notes": ""
+    },
+    "B": {
+      "color": null,
+      "color_confidence": null,
+      "garment_polygons_orig": [],
+      "notes": ""
+    }
+  },
+  "sham_translations_canvas": {
+    "A": null,
+    "B": null
+  },
+  "review": {},
+  "rater_was_mask_author": null,
+  "notes": "",
+  "created_utc": "2026-10-22T10:14:13+00:00",
+  "updated_utc": "2026-10-22T10:14:13+00:00",
+  "tool_version": "eob-annotator-0.1"
+}

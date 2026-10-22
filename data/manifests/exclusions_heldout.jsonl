@@ -1,0 +1,4 @@
+{"scene_id": "val2017-000000309964", "order_rank": 1, "stage": "author_screen", "decision": "unsure", "reasons": ["no_sham_location"], "notes": ""}
+{"scene_id": "val2017-000000571718", "order_rank": 2, "stage": "author_screen", "decision": "reject", "reasons": ["ambiguous_color", "cannot_mask_cleanly"], "notes": ""}
+{"scene_id": "val2017-000000089296", "order_rank": 7, "stage": "author_screen", "decision": "reject", "reasons": ["not_two_actual_people"], "notes": ""}
+{"scene_id": "val2017-000000517056", "order_rank": 8, "stage": "author_screen", "decision": "unsure", "reasons": ["no_sham_location"], "notes": ""}

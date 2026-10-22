@@ -1,0 +1,22 @@
+{
+  "coco_split": "val2017",
+  "created_utc": "2026-10-22T08:51:13+00:00",
+  "instances_json": "instances_val2017.json",
+  "instances_json_sha256": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f",
+  "hash_salt": "fatima-evidence-2026-v1:",
+  "ab_assignment_salt": "fatima-evidence-2026-v1:ab-assignment:",
+  "iou_max_exclusive": 0.05,
+  "python": "3.11.15",
+  "automatic_criteria_only": true,
+  "stats": {
+    "pass": 293,
+    "no_person": 2307,
+    "not_exactly_two_persons": 2030,
+    "crowd_person_annotation": 227,
+    "person_bbox_iou_too_high": 143,
+    "size_prescreen_pass": 158,
+    "images_total": 5000,
+    "images_with_person": 2693,
+    "candidates": 293
+  }
+}

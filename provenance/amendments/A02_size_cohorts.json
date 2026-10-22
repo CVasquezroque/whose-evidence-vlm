@@ -1,0 +1,37 @@
+{
+  "amendment": "A02",
+  "title": "Nested garment-size cohorts (exploratory)",
+  "recorded_utc": "2026-10-22T11:07Z",
+  "registration": "internal hash-locked amendment; NOT an external preregistration",
+  "state_at_recording": {
+    "val2017_model_outputs": 0,
+    "val2017_author_records": 5
+  },
+  "pilot_informed": true,
+  "rationale": "In 8 human-marked eligible pilot scenes garments filled 50-71% of their bounding box, so the 2304 px^2 area rule binds at ~59x59 px.",
+  "inclusion_screen": {
+    "min_w": 32,
+    "min_h": 32,
+    "min_area": 900
+  },
+  "analysis_cohorts": {
+    "original": [
+      48,
+      48,
+      2304
+    ],
+    "moderate": [
+      40,
+      40,
+      1500
+    ],
+    "expanded": [
+      32,
+      32,
+      900
+    ]
+  },
+  "unchanged": "all other eligibility and intervention rules, estimand, prompts, parser",
+  "status": "exploratory (single rater; pilot gates not met)",
+  "amendment_text_sha256": "c8fbca45a4abbc10ba074b475b05792be30496f4c3f33380897f5953cac25893"
+}

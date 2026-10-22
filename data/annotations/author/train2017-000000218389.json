@@ -1,0 +1,314 @@
+{
+  "schema": "eob.annotation.v1",
+  "role": "author",
+  "annotator_id": "CEVR",
+  "scene_id": "train2017-000000218389",
+  "source_image_id": 218389,
+  "coco_split": "train2017",
+  "decision": "eligible",
+  "reject_reasons": [],
+  "checks": {
+    "exactly_two_people": true,
+    "boxes_correct": true,
+    "single_outer_garment_A": true,
+    "single_outer_garment_B": true,
+    "dominant_color_A": true,
+    "dominant_color_B": true,
+    "colors_differ": true,
+    "fully_coverable": true,
+    "designation_clear": true,
+    "sham_background_ok": true
+  },
+  "persons": {
+    "A": {
+      "color": "white",
+      "color_confidence": "certain",
+      "garment_polygons_orig": [
+        [
+          [
+            486.5,
+            158
+          ],
+          [
+            490.5,
+            158
+          ],
+          [
+            490.5,
+            166
+          ],
+          [
+            493,
+            168.5
+          ],
+          [
+            496,
+            167.5
+          ],
+          [
+            497.5,
+            169
+          ],
+          [
+            497.5,
+            175
+          ],
+          [
+            493,
+            177.5
+          ],
+          [
+            491,
+            176.5
+          ],
+          [
+            482,
+            182.5
+          ],
+          [
+            478,
+            182.5
+          ],
+          [
+            476,
+            178.5
+          ],
+          [
+            473,
+            178.5
+          ],
+          [
+            470,
+            182.5
+          ],
+          [
+            466,
+            182.5
+          ],
+          [
+            465.5,
+            176
+          ],
+          [
+            472.5,
+            166
+          ],
+          [
+            478,
+            160.5
+          ]
+        ]
+      ],
+      "notes": "",
+      "mask_source": "sam_assisted",
+      "edited_after_sam": false,
+      "sam_assist": {
+        "score": 0.9897089600563049,
+        "mask_area_px": 496,
+        "candidates": [
+          {
+            "score": 0.9897089600563049,
+            "area_px": 496
+          }
+        ],
+        "selection_rule": "SAM-HQ internal max-IoU multimask (1 point) or single mask (>1 point)",
+        "points_orig": [
+          [
+            485.06,
+            161.79
+          ]
+        ],
+        "labels": [
+          1
+        ],
+        "multimask_index": 0,
+        "model": "sam-hq_vit_l",
+        "checkpoint": "sam_hq_vit_l.pth",
+        "checkpoint_sha256": "e1a6c385d62bf005ded91a54d5ec55c985cfc4103ef89c08d90f39f04934c343",
+        "device": "cuda:0",
+        "cuda_visible_devices": "1",
+        "torch": "2.11.0+cu128",
+        "simplify_tol_px": 1,
+        "min_component_px": 64,
+        "accepted_utc": "2026-10-22T10:36:35.106Z"
+      }
+    },
+    "B": {
+      "color": "black",
+      "color_confidence": "certain",
+      "garment_polygons_orig": [
+        [
+          [
+            96.5,
+            88
+          ],
+          [
+            100,
+            88.5
+          ],
+          [
+            102.5,
+            93
+          ],
+          [
+            114,
+            102.5
+          ],
+          [
+            125,
+            106.5
+          ],
+          [
+            141,
+            105.5
+          ],
+          [
+            146,
+            102.5
+          ],
+          [
+            151,
+            95.5
+          ],
+          [
+            160,
+            97.5
+          ],
+          [
+            162.5,
+            100
+          ],
+          [
+            161.5,
+            136
+          ],
+          [
+            163.5,
+            147
+          ],
+          [
+            147.5,
+            184
+          ],
+          [
+            146.5,
+            191
+          ],
+          [
+            150.5,
+            207
+          ],
+          [
+            150.5,
+            220
+          ],
+          [
+            149,
+            221.5
+          ],
+          [
+            143,
+            223.5
+          ],
+          [
+            113,
+            225.5
+          ],
+          [
+            82,
+            220.5
+          ],
+          [
+            59.5,
+            212
+          ],
+          [
+            59.5,
+            208
+          ],
+          [
+            65.5,
+            194
+          ],
+          [
+            70.5,
+            187
+          ],
+          [
+            73.5,
+            178
+          ],
+          [
+            70.5,
+            139
+          ],
+          [
+            77.5,
+            134
+          ],
+          [
+            84.5,
+            122
+          ],
+          [
+            87.5,
+            110
+          ],
+          [
+            87.5,
+            90
+          ]
+        ]
+      ],
+      "notes": "",
+      "mask_source": "sam_assisted",
+      "edited_after_sam": false,
+      "sam_assist": {
+        "score": 1.020128607749939,
+        "mask_area_px": 10190,
+        "candidates": [
+          {
+            "score": 1.020128607749939,
+            "area_px": 10190
+          }
+        ],
+        "selection_rule": "SAM-HQ internal max-IoU multimask (1 point) or single mask (>1 point)",
+        "points_orig": [
+          [
+            126.52,
+            132.74
+          ]
+        ],
+        "labels": [
+          1
+        ],
+        "multimask_index": 0,
+        "model": "sam-hq_vit_l",
+        "checkpoint": "sam_hq_vit_l.pth",
+        "checkpoint_sha256": "e1a6c385d62bf005ded91a54d5ec55c985cfc4103ef89c08d90f39f04934c343",
+        "device": "cuda:0",
+        "cuda_visible_devices": "1",
+        "torch": "2.11.0+cu128",
+        "simplify_tol_px": 1,
+        "min_component_px": 64,
+        "accepted_utc": "2026-10-22T10:36:38.767Z"
+      }
+    }
+  },
+  "sham_translations_canvas": {
+    "A": [
+      63,
+      -2
+    ],
+    "B": [
+      141,
+      0
+    ]
+  },
+  "review": {},
+  "rater_was_mask_author": null,
+  "notes": "",
+  "created_utc": "2026-10-22T10:37:16+00:00",
+  "updated_utc": "2026-10-22T10:37:16+00:00",
+  "tool_version": "eob-annotator-0.1"
+}

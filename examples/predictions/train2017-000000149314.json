@@ -1,0 +1,382 @@
+[
+ {
+  "query_id": "5362e87841c2490d469e",
+  "variant": "primary",
+  "image_key": "I11",
+  "target_person": "A",
+  "target_tag": "A",
+  "gold": {
+   "task_gold": "green",
+   "target_latent_color": "green",
+   "donor_latent_color": "blue",
+   "target_visible": true,
+   "donor_visible": true
+  },
+  "raw_text": "```json\n{\n  \"label\": \"green\"\n}\n```\n",
+  "label": "green",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "eecbf117d88a7fae5e8e",
+  "variant": "primary",
+  "image_key": "I11",
+  "target_person": "B",
+  "target_tag": "B",
+  "gold": {
+   "task_gold": "blue",
+   "target_latent_color": "blue",
+   "donor_latent_color": "green",
+   "target_visible": true,
+   "donor_visible": true
+  },
+  "raw_text": "```json\n{\n  \"label\": \"blue\"\n}\n```\n",
+  "label": "blue",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "fbdc31b14a0614000415",
+  "variant": "primary",
+  "image_key": "I01",
+  "target_person": "A",
+  "target_tag": "A",
+  "gold": {
+   "task_gold": "UNKNOWN",
+   "target_latent_color": "green",
+   "donor_latent_color": "blue",
+   "target_visible": false,
+   "donor_visible": true
+  },
+  "raw_text": "{\"label\":\"gray\"}\n",
+  "label": "gray",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "aa91f82c8e6231f7af3d",
+  "variant": "primary",
+  "image_key": "I01",
+  "target_person": "B",
+  "target_tag": "B",
+  "gold": {
+   "task_gold": "blue",
+   "target_latent_color": "blue",
+   "donor_latent_color": "green",
+   "target_visible": true,
+   "donor_visible": false
+  },
+  "raw_text": "```json\n{\n  \"label\": \"blue\"\n}\n```\n",
+  "label": "blue",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "983cd5526c86c3df3094",
+  "variant": "primary",
+  "image_key": "I10",
+  "target_person": "A",
+  "target_tag": "A",
+  "gold": {
+   "task_gold": "green",
+   "target_latent_color": "green",
+   "donor_latent_color": "blue",
+   "target_visible": true,
+   "donor_visible": false
+  },
+  "raw_text": "```json\n{\n  \"label\": \"green\"\n}\n```\n",
+  "label": "green",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "a5ccc52287affcd94adf",
+  "variant": "primary",
+  "image_key": "I10",
+  "target_person": "B",
+  "target_tag": "B",
+  "gold": {
+   "task_gold": "UNKNOWN",
+   "target_latent_color": "blue",
+   "donor_latent_color": "green",
+   "target_visible": false,
+   "donor_visible": true
+  },
+  "raw_text": "```json\n{\n  \"label\": \"gray\"\n}\n```\n",
+  "label": "gray",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "05a6912cf7484bfe7fbf",
+  "variant": "primary",
+  "image_key": "I00",
+  "target_person": "A",
+  "target_tag": "A",
+  "gold": {
+   "task_gold": "UNKNOWN",
+   "target_latent_color": "green",
+   "donor_latent_color": "blue",
+   "target_visible": false,
+   "donor_visible": false
+  },
+  "raw_text": "{\"label\":\"gray\"}\n",
+  "label": "gray",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "3a9969a37890a73def4c",
+  "variant": "primary",
+  "image_key": "I00",
+  "target_person": "B",
+  "target_tag": "B",
+  "gold": {
+   "task_gold": "UNKNOWN",
+   "target_latent_color": "blue",
+   "donor_latent_color": "green",
+   "target_visible": false,
+   "donor_visible": false
+  },
+  "raw_text": "```json\n{\"label\":\"gray\"}\n```\n",
+  "label": "gray",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "04f0e6a2faf9986fd261",
+  "variant": "primary",
+  "image_key": "clean",
+  "target_person": "A",
+  "target_tag": "A",
+  "gold": {
+   "task_gold": "green",
+   "target_latent_color": "green",
+   "donor_latent_color": "blue",
+   "target_visible": true,
+   "donor_visible": true
+  },
+  "raw_text": "{\"label\":\"green\"}\n",
+  "label": "green",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "da5815686deff920ddfb",
+  "variant": "primary",
+  "image_key": "clean",
+  "target_person": "B",
+  "target_tag": "B",
+  "gold": {
+   "task_gold": "blue",
+   "target_latent_color": "blue",
+   "donor_latent_color": "green",
+   "target_visible": true,
+   "donor_visible": true
+  },
+  "raw_text": "{\"label\":\"blue\"}\n",
+  "label": "blue",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "5b5851989829d03eb779",
+  "variant": "primary",
+  "image_key": "iso_A",
+  "target_person": "A",
+  "target_tag": "A",
+  "gold": {
+   "task_gold": "green",
+   "target_latent_color": "green",
+   "donor_latent_color": "blue",
+   "target_visible": true,
+   "donor_visible": null
+  },
+  "raw_text": "```json\n{\n  \"label\": \"green\"\n}\n```\n",
+  "label": "green",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "d7186da076a0b4102217",
+  "variant": "primary",
+  "image_key": "iso_B",
+  "target_person": "B",
+  "target_tag": "B",
+  "gold": {
+   "task_gold": "blue",
+   "target_latent_color": "blue",
+   "donor_latent_color": "green",
+   "target_visible": true,
+   "donor_visible": null
+  },
+  "raw_text": "```json\n{\n  \"label\": \"blue\"\n}\n```\n",
+  "label": "blue",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "bd5d032ff53cbce51959",
+  "variant": "tag_reversal",
+  "image_key": "tagrev_I11",
+  "target_person": "A",
+  "target_tag": "B",
+  "gold": {
+   "task_gold": "green",
+   "target_latent_color": "green",
+   "donor_latent_color": "blue",
+   "target_visible": true,
+   "donor_visible": true
+  },
+  "raw_text": "Based on the image, person B is wearing a bright outer jacket. The dominant color of this garment is green.\n\n```json\n{\"label\":\"green\"}",
+  "label": null,
+  "valid": false,
+  "invalid_reason": "truncated",
+  "R": 0
+ },
+ {
+  "query_id": "5472cec7741d41d55a30",
+  "variant": "tag_reversal",
+  "image_key": "tagrev_I11",
+  "target_person": "B",
+  "target_tag": "A",
+  "gold": {
+   "task_gold": "blue",
+   "target_latent_color": "blue",
+   "donor_latent_color": "green",
+   "target_visible": true,
+   "donor_visible": true
+  },
+  "raw_text": "```json\n{\n  \"label\": \"blue\"\n}\n```\n",
+  "label": "blue",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "99107874029ba77ea528",
+  "variant": "tag_reversal",
+  "image_key": "tagrev_I01",
+  "target_person": "A",
+  "target_tag": "B",
+  "gold": {
+   "task_gold": "UNKNOWN",
+   "target_latent_color": "green",
+   "donor_latent_color": "blue",
+   "target_visible": false,
+   "donor_visible": true
+  },
+  "raw_text": "{\"label\":\"gray\"}\n",
+  "label": "gray",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "7f839c251fee0dcf46b7",
+  "variant": "tag_reversal",
+  "image_key": "tagrev_I01",
+  "target_person": "B",
+  "target_tag": "A",
+  "gold": {
+   "task_gold": "blue",
+   "target_latent_color": "blue",
+   "donor_latent_color": "green",
+   "target_visible": true,
+   "donor_visible": false
+  },
+  "raw_text": "```json\n{\n  \"label\": \"blue\"\n}\n```\n",
+  "label": "blue",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "680ec89a695e48c0bad7",
+  "variant": "tag_reversal",
+  "image_key": "tagrev_I10",
+  "target_person": "A",
+  "target_tag": "B",
+  "gold": {
+   "task_gold": "green",
+   "target_latent_color": "green",
+   "donor_latent_color": "blue",
+   "target_visible": true,
+   "donor_visible": false
+  },
+  "raw_text": "```json\n{\n  \"label\": \"green\"\n}\n```\n",
+  "label": "green",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "21f74874b21ac30cc1c2",
+  "variant": "tag_reversal",
+  "image_key": "tagrev_I10",
+  "target_person": "B",
+  "target_tag": "A",
+  "gold": {
+   "task_gold": "UNKNOWN",
+   "target_latent_color": "blue",
+   "donor_latent_color": "green",
+   "target_visible": false,
+   "donor_visible": true
+  },
+  "raw_text": "```json\n{\n  \"label\": \"gray\"\n}\n```\n",
+  "label": "gray",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "d52c3097095893ea1fab",
+  "variant": "tag_reversal",
+  "image_key": "tagrev_I00",
+  "target_person": "A",
+  "target_tag": "B",
+  "gold": {
+   "task_gold": "UNKNOWN",
+   "target_latent_color": "green",
+   "donor_latent_color": "blue",
+   "target_visible": false,
+   "donor_visible": false
+  },
+  "raw_text": "{\"label\":\"gray\"}\n",
+  "label": "gray",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ },
+ {
+  "query_id": "aa6298f22b41d639fc5b",
+  "variant": "tag_reversal",
+  "image_key": "tagrev_I00",
+  "target_person": "B",
+  "target_tag": "A",
+  "gold": {
+   "task_gold": "UNKNOWN",
+   "target_latent_color": "blue",
+   "donor_latent_color": "green",
+   "target_visible": false,
+   "donor_visible": false
+  },
+  "raw_text": "```json\n{\"label\":\"gray\"}\n```\n",
+  "label": "gray",
+  "valid": true,
+  "invalid_reason": null,
+  "R": 0
+ }
+]

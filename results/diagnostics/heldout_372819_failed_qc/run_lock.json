@@ -1,0 +1,37 @@
+{
+  "protocol_version": "1.0-frozen",
+  "prompt_sha256": "c886dbe4078d3a3683dca942038e138879c888f9767536c4dc9d4419ecc1cdcd",
+  "experiment_sha256": "faf2334ce148ee11ab882d1b639a2323fe71ebc3a4fc30a91abc00914dd094ca",
+  "query_prompt_hashes": [
+    "22d87025cac6a9dc0cce1870ba970e3c0d732ad9368a6ac74fc30efec6e37aaa",
+    "4548848069dfae531345351f322af746f432c2d6f19c7cd5e44d16dcd9535444"
+  ],
+  "queries_sha256": "ef35fe4ebbbe54d71d8b9fdfb351bb2a5c467107771a888ca53ae2f24c081090",
+  "model": {
+    "model_id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "processor_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "dtype": "bfloat16",
+    "attn_implementation": "sdpa",
+    "class": "Qwen3_5ForConditionalGeneration",
+    "processor_class": "Qwen3VLProcessor",
+    "image_processor_class": "Qwen2VLImageProcessor"
+  },
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 32,
+    "num_beams": 1,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null
+  },
+  "generation_config_sha256": "3d0b06479855fe7ab48f5d79985be18f787097e3bc0e7e3c68c48e286cf8769e",
+  "chat_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+  "environment": {
+    "python": "3.11.15",
+    "cuda_device_name": "NVIDIA RTX A6000",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.20.2",
+    "pillow": "12.3.0"
+  }
+}

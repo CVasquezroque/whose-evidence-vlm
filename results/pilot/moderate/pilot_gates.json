@@ -1,0 +1,40 @@
+{
+  "evidence_level": "pilot",
+  "annotation_status": "exploratory_single_rater",
+  "status": "FAIL",
+  "gates": {
+    "clean": {
+      "status": "PASS",
+      "measured": 0.875,
+      "threshold": 0.85,
+      "operator": ">=",
+      "config_key": "clean_accuracy_min",
+      "reason": "Threshold met"
+    },
+    "isolated": {
+      "status": "PASS",
+      "measured": 0.875,
+      "threshold": 0.85,
+      "operator": ">=",
+      "config_key": "isolated_accuracy_min",
+      "reason": "Threshold met"
+    },
+    "sham_drop": {
+      "status": "PASS",
+      "measured": 0.0,
+      "threshold": 0.1,
+      "operator": "<=",
+      "config_key": "max_sham_accuracy_drop",
+      "reason": "Threshold met"
+    },
+    "valid_json": {
+      "status": "FAIL",
+      "measured": 0.9166666666666666,
+      "threshold": 0.99,
+      "operator": ">=",
+      "config_key": "valid_json_min",
+      "reason": "Missing control or threshold failed"
+    }
+  },
+  "scope": "Measured model-interface gates only; human audit, yield and GPU feasibility require separate review"
+}

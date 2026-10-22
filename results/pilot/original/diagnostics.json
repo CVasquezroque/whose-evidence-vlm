@@ -1,0 +1,2075 @@
+{
+  "evidence_level": "pilot",
+  "annotation_status": "exploratory_single_rater",
+  "cells": [
+    {
+      "condition": "I11",
+      "target_visible": true,
+      "n": 6,
+      "accuracy": {
+        "numerator": 5,
+        "denominator": 6,
+        "rate": 0.8333333333333334
+      },
+      "donor_match": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "UNKNOWN": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "invalid": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "any_definite_color": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "composition": {
+        "target_color": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        }
+      },
+      "visible": {
+        "correct": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "wrong": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        }
+      },
+      "hidden_composition": {
+        "target_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "other_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        }
+      }
+    },
+    {
+      "condition": "I01",
+      "target_visible": false,
+      "n": 3,
+      "accuracy": {
+        "numerator": 0,
+        "denominator": 3,
+        "rate": 0.0
+      },
+      "donor_match": {
+        "numerator": 1,
+        "denominator": 3,
+        "rate": 0.3333333333333333
+      },
+      "UNKNOWN": {
+        "numerator": 0,
+        "denominator": 3,
+        "rate": 0.0
+      },
+      "invalid": {
+        "numerator": 1,
+        "denominator": 3,
+        "rate": 0.3333333333333333
+      },
+      "any_definite_color": {
+        "numerator": 2,
+        "denominator": 3,
+        "rate": 0.6666666666666666
+      },
+      "composition": {
+        "target_color": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "donor_color": {
+          "numerator": 1,
+          "denominator": 3,
+          "rate": 0.3333333333333333
+        },
+        "other_color": {
+          "numerator": 1,
+          "denominator": 3,
+          "rate": 0.3333333333333333
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 1,
+          "denominator": 3,
+          "rate": 0.3333333333333333
+        }
+      },
+      "visible": {
+        "correct": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "wrong": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        }
+      },
+      "hidden_composition": {
+        "target_color": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "donor_color": {
+          "numerator": 1,
+          "denominator": 3,
+          "rate": 0.3333333333333333
+        },
+        "other_color": {
+          "numerator": 1,
+          "denominator": 3,
+          "rate": 0.3333333333333333
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 1,
+          "denominator": 3,
+          "rate": 0.3333333333333333
+        }
+      }
+    },
+    {
+      "condition": "I01",
+      "target_visible": true,
+      "n": 3,
+      "accuracy": {
+        "numerator": 3,
+        "denominator": 3,
+        "rate": 1.0
+      },
+      "donor_match": {
+        "numerator": 0,
+        "denominator": 3,
+        "rate": 0.0
+      },
+      "UNKNOWN": {
+        "numerator": 0,
+        "denominator": 3,
+        "rate": 0.0
+      },
+      "invalid": {
+        "numerator": 0,
+        "denominator": 3,
+        "rate": 0.0
+      },
+      "any_definite_color": {
+        "numerator": 3,
+        "denominator": 3,
+        "rate": 1.0
+      },
+      "composition": {
+        "target_color": {
+          "numerator": 3,
+          "denominator": 3,
+          "rate": 1.0
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        }
+      },
+      "visible": {
+        "correct": {
+          "numerator": 3,
+          "denominator": 3,
+          "rate": 1.0
+        },
+        "wrong": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        }
+      },
+      "hidden_composition": {
+        "target_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "other_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        }
+      }
+    },
+    {
+      "condition": "I10",
+      "target_visible": false,
+      "n": 3,
+      "accuracy": {
+        "numerator": 0,
+        "denominator": 3,
+        "rate": 0.0
+      },
+      "donor_match": {
+        "numerator": 0,
+        "denominator": 3,
+        "rate": 0.0
+      },
+      "UNKNOWN": {
+        "numerator": 0,
+        "denominator": 3,
+        "rate": 0.0
+      },
+      "invalid": {
+        "numerator": 0,
+        "denominator": 3,
+        "rate": 0.0
+      },
+      "any_definite_color": {
+        "numerator": 3,
+        "denominator": 3,
+        "rate": 1.0
+      },
+      "composition": {
+        "target_color": {
+          "numerator": 1,
+          "denominator": 3,
+          "rate": 0.3333333333333333
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 2,
+          "denominator": 3,
+          "rate": 0.6666666666666666
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        }
+      },
+      "visible": {
+        "correct": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "wrong": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        }
+      },
+      "hidden_composition": {
+        "target_color": {
+          "numerator": 1,
+          "denominator": 3,
+          "rate": 0.3333333333333333
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 2,
+          "denominator": 3,
+          "rate": 0.6666666666666666
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "condition": "I10",
+      "target_visible": true,
+      "n": 3,
+      "accuracy": {
+        "numerator": 2,
+        "denominator": 3,
+        "rate": 0.6666666666666666
+      },
+      "donor_match": {
+        "numerator": 0,
+        "denominator": 3,
+        "rate": 0.0
+      },
+      "UNKNOWN": {
+        "numerator": 0,
+        "denominator": 3,
+        "rate": 0.0
+      },
+      "invalid": {
+        "numerator": 0,
+        "denominator": 3,
+        "rate": 0.0
+      },
+      "any_definite_color": {
+        "numerator": 3,
+        "denominator": 3,
+        "rate": 1.0
+      },
+      "composition": {
+        "target_color": {
+          "numerator": 2,
+          "denominator": 3,
+          "rate": 0.6666666666666666
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 1,
+          "denominator": 3,
+          "rate": 0.3333333333333333
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        }
+      },
+      "visible": {
+        "correct": {
+          "numerator": 2,
+          "denominator": 3,
+          "rate": 0.6666666666666666
+        },
+        "wrong": {
+          "numerator": 1,
+          "denominator": 3,
+          "rate": 0.3333333333333333
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        }
+      },
+      "hidden_composition": {
+        "target_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "other_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        }
+      }
+    },
+    {
+      "condition": "I00",
+      "target_visible": false,
+      "n": 6,
+      "accuracy": {
+        "numerator": 2,
+        "denominator": 6,
+        "rate": 0.3333333333333333
+      },
+      "donor_match": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "UNKNOWN": {
+        "numerator": 2,
+        "denominator": 6,
+        "rate": 0.3333333333333333
+      },
+      "invalid": {
+        "numerator": 2,
+        "denominator": 6,
+        "rate": 0.3333333333333333
+      },
+      "any_definite_color": {
+        "numerator": 2,
+        "denominator": 6,
+        "rate": 0.3333333333333333
+      },
+      "composition": {
+        "target_color": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 2,
+          "denominator": 6,
+          "rate": 0.3333333333333333
+        },
+        "UNKNOWN": {
+          "numerator": 2,
+          "denominator": 6,
+          "rate": 0.3333333333333333
+        },
+        "invalid": {
+          "numerator": 2,
+          "denominator": 6,
+          "rate": 0.3333333333333333
+        }
+      },
+      "visible": {
+        "correct": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "wrong": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        }
+      },
+      "hidden_composition": {
+        "target_color": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 2,
+          "denominator": 6,
+          "rate": 0.3333333333333333
+        },
+        "UNKNOWN": {
+          "numerator": 2,
+          "denominator": 6,
+          "rate": 0.3333333333333333
+        },
+        "invalid": {
+          "numerator": 2,
+          "denominator": 6,
+          "rate": 0.3333333333333333
+        }
+      }
+    }
+  ],
+  "controls": {
+    "clean": {
+      "n": 6,
+      "accuracy": {
+        "numerator": 5,
+        "denominator": 6,
+        "rate": 0.8333333333333334
+      },
+      "donor_match": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "UNKNOWN": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "invalid": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "any_definite_color": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "composition": {
+        "target_color": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        }
+      },
+      "visible": {
+        "correct": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "wrong": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        }
+      },
+      "hidden_composition": {
+        "target_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "other_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        }
+      }
+    },
+    "I11": {
+      "n": 6,
+      "accuracy": {
+        "numerator": 5,
+        "denominator": 6,
+        "rate": 0.8333333333333334
+      },
+      "donor_match": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "UNKNOWN": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "invalid": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "any_definite_color": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "composition": {
+        "target_color": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        }
+      },
+      "visible": {
+        "correct": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "wrong": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        }
+      },
+      "hidden_composition": {
+        "target_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "other_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        }
+      }
+    },
+    "iso": {
+      "n": 6,
+      "accuracy": {
+        "numerator": 5,
+        "denominator": 6,
+        "rate": 0.8333333333333334
+      },
+      "donor_match": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "UNKNOWN": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "invalid": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "any_definite_color": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "composition": {
+        "target_color": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        }
+      },
+      "visible": {
+        "correct": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "wrong": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 6,
+          "rate": 0.0
+        }
+      },
+      "hidden_composition": {
+        "target_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "other_color": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        }
+      }
+    },
+    "paired_clean_minus_sham": {
+      "point": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "n_clusters": 3,
+      "n_scenes": 3,
+      "bootstrap_unit": "cluster",
+      "n_resamples": 10000,
+      "seed": 20261022,
+      "interval": "two-sided 95% percentile",
+      "numerator": 0.0,
+      "denominator": 3,
+      "numerator_definition": "sum of within-cluster mean scene contrasts",
+      "n_missing_pairs": 0
+    }
+  },
+  "subgroups": {
+    "target_tag": {
+      "A": {
+        "n": 12,
+        "accuracy": {
+          "numerator": 4,
+          "denominator": 12,
+          "rate": 0.3333333333333333
+        },
+        "donor_match": {
+          "numerator": 1,
+          "denominator": 12,
+          "rate": 0.08333333333333333
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 12,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 3,
+          "denominator": 12,
+          "rate": 0.25
+        },
+        "any_definite_color": {
+          "numerator": 9,
+          "denominator": 12,
+          "rate": 0.75
+        },
+        "composition": {
+          "target_color": {
+            "numerator": 4,
+            "denominator": 12,
+            "rate": 0.3333333333333333
+          },
+          "donor_color": {
+            "numerator": 1,
+            "denominator": 12,
+            "rate": 0.08333333333333333
+          },
+          "other_color": {
+            "numerator": 4,
+            "denominator": 12,
+            "rate": 0.3333333333333333
+          },
+          "UNKNOWN": {
+            "numerator": 0,
+            "denominator": 12,
+            "rate": 0.0
+          },
+          "invalid": {
+            "numerator": 3,
+            "denominator": 12,
+            "rate": 0.25
+          }
+        },
+        "visible": {
+          "correct": {
+            "numerator": 4,
+            "denominator": 6,
+            "rate": 0.6666666666666666
+          },
+          "wrong": {
+            "numerator": 2,
+            "denominator": 6,
+            "rate": 0.3333333333333333
+          },
+          "UNKNOWN": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "invalid": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          }
+        },
+        "hidden_composition": {
+          "target_color": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "donor_color": {
+            "numerator": 1,
+            "denominator": 6,
+            "rate": 0.16666666666666666
+          },
+          "other_color": {
+            "numerator": 2,
+            "denominator": 6,
+            "rate": 0.3333333333333333
+          },
+          "UNKNOWN": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "invalid": {
+            "numerator": 3,
+            "denominator": 6,
+            "rate": 0.5
+          }
+        }
+      },
+      "B": {
+        "n": 12,
+        "accuracy": {
+          "numerator": 8,
+          "denominator": 12,
+          "rate": 0.6666666666666666
+        },
+        "donor_match": {
+          "numerator": 0,
+          "denominator": 12,
+          "rate": 0.0
+        },
+        "UNKNOWN": {
+          "numerator": 2,
+          "denominator": 12,
+          "rate": 0.16666666666666666
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 12,
+          "rate": 0.0
+        },
+        "any_definite_color": {
+          "numerator": 10,
+          "denominator": 12,
+          "rate": 0.8333333333333334
+        },
+        "composition": {
+          "target_color": {
+            "numerator": 7,
+            "denominator": 12,
+            "rate": 0.5833333333333334
+          },
+          "donor_color": {
+            "numerator": 0,
+            "denominator": 12,
+            "rate": 0.0
+          },
+          "other_color": {
+            "numerator": 3,
+            "denominator": 12,
+            "rate": 0.25
+          },
+          "UNKNOWN": {
+            "numerator": 2,
+            "denominator": 12,
+            "rate": 0.16666666666666666
+          },
+          "invalid": {
+            "numerator": 0,
+            "denominator": 12,
+            "rate": 0.0
+          }
+        },
+        "visible": {
+          "correct": {
+            "numerator": 6,
+            "denominator": 6,
+            "rate": 1.0
+          },
+          "wrong": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "UNKNOWN": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "invalid": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          }
+        },
+        "hidden_composition": {
+          "target_color": {
+            "numerator": 1,
+            "denominator": 6,
+            "rate": 0.16666666666666666
+          },
+          "donor_color": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "other_color": {
+            "numerator": 3,
+            "denominator": 6,
+            "rate": 0.5
+          },
+          "UNKNOWN": {
+            "numerator": 2,
+            "denominator": 6,
+            "rate": 0.3333333333333333
+          },
+          "invalid": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          }
+        }
+      }
+    },
+    "target_side": {
+      "left": {
+        "n": 12,
+        "accuracy": {
+          "numerator": 5,
+          "denominator": 12,
+          "rate": 0.4166666666666667
+        },
+        "donor_match": {
+          "numerator": 0,
+          "denominator": 12,
+          "rate": 0.0
+        },
+        "UNKNOWN": {
+          "numerator": 1,
+          "denominator": 12,
+          "rate": 0.08333333333333333
+        },
+        "invalid": {
+          "numerator": 2,
+          "denominator": 12,
+          "rate": 0.16666666666666666
+        },
+        "any_definite_color": {
+          "numerator": 9,
+          "denominator": 12,
+          "rate": 0.75
+        },
+        "composition": {
+          "target_color": {
+            "numerator": 5,
+            "denominator": 12,
+            "rate": 0.4166666666666667
+          },
+          "donor_color": {
+            "numerator": 0,
+            "denominator": 12,
+            "rate": 0.0
+          },
+          "other_color": {
+            "numerator": 4,
+            "denominator": 12,
+            "rate": 0.3333333333333333
+          },
+          "UNKNOWN": {
+            "numerator": 1,
+            "denominator": 12,
+            "rate": 0.08333333333333333
+          },
+          "invalid": {
+            "numerator": 2,
+            "denominator": 12,
+            "rate": 0.16666666666666666
+          }
+        },
+        "visible": {
+          "correct": {
+            "numerator": 4,
+            "denominator": 6,
+            "rate": 0.6666666666666666
+          },
+          "wrong": {
+            "numerator": 2,
+            "denominator": 6,
+            "rate": 0.3333333333333333
+          },
+          "UNKNOWN": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "invalid": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          }
+        },
+        "hidden_composition": {
+          "target_color": {
+            "numerator": 1,
+            "denominator": 6,
+            "rate": 0.16666666666666666
+          },
+          "donor_color": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "other_color": {
+            "numerator": 2,
+            "denominator": 6,
+            "rate": 0.3333333333333333
+          },
+          "UNKNOWN": {
+            "numerator": 1,
+            "denominator": 6,
+            "rate": 0.16666666666666666
+          },
+          "invalid": {
+            "numerator": 2,
+            "denominator": 6,
+            "rate": 0.3333333333333333
+          }
+        }
+      },
+      "right": {
+        "n": 12,
+        "accuracy": {
+          "numerator": 7,
+          "denominator": 12,
+          "rate": 0.5833333333333334
+        },
+        "donor_match": {
+          "numerator": 1,
+          "denominator": 12,
+          "rate": 0.08333333333333333
+        },
+        "UNKNOWN": {
+          "numerator": 1,
+          "denominator": 12,
+          "rate": 0.08333333333333333
+        },
+        "invalid": {
+          "numerator": 1,
+          "denominator": 12,
+          "rate": 0.08333333333333333
+        },
+        "any_definite_color": {
+          "numerator": 10,
+          "denominator": 12,
+          "rate": 0.8333333333333334
+        },
+        "composition": {
+          "target_color": {
+            "numerator": 6,
+            "denominator": 12,
+            "rate": 0.5
+          },
+          "donor_color": {
+            "numerator": 1,
+            "denominator": 12,
+            "rate": 0.08333333333333333
+          },
+          "other_color": {
+            "numerator": 3,
+            "denominator": 12,
+            "rate": 0.25
+          },
+          "UNKNOWN": {
+            "numerator": 1,
+            "denominator": 12,
+            "rate": 0.08333333333333333
+          },
+          "invalid": {
+            "numerator": 1,
+            "denominator": 12,
+            "rate": 0.08333333333333333
+          }
+        },
+        "visible": {
+          "correct": {
+            "numerator": 6,
+            "denominator": 6,
+            "rate": 1.0
+          },
+          "wrong": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "UNKNOWN": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "invalid": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          }
+        },
+        "hidden_composition": {
+          "target_color": {
+            "numerator": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "donor_color": {
+            "numerator": 1,
+            "denominator": 6,
+            "rate": 0.16666666666666666
+          },
+          "other_color": {
+            "numerator": 3,
+            "denominator": 6,
+            "rate": 0.5
+          },
+          "UNKNOWN": {
+            "numerator": 1,
+            "denominator": 6,
+            "rate": 0.16666666666666666
+          },
+          "invalid": {
+            "numerator": 1,
+            "denominator": 6,
+            "rate": 0.16666666666666666
+          }
+        }
+      }
+    }
+  },
+  "color_pairs": {
+    "black/white": {
+      "n": 8,
+      "accuracy": {
+        "numerator": 5,
+        "denominator": 8,
+        "rate": 0.625
+      },
+      "donor_match": {
+        "numerator": 1,
+        "denominator": 8,
+        "rate": 0.125
+      },
+      "UNKNOWN": {
+        "numerator": 1,
+        "denominator": 8,
+        "rate": 0.125
+      },
+      "invalid": {
+        "numerator": 1,
+        "denominator": 8,
+        "rate": 0.125
+      },
+      "any_definite_color": {
+        "numerator": 6,
+        "denominator": 8,
+        "rate": 0.75
+      },
+      "composition": {
+        "target_color": {
+          "numerator": 5,
+          "denominator": 8,
+          "rate": 0.625
+        },
+        "donor_color": {
+          "numerator": 1,
+          "denominator": 8,
+          "rate": 0.125
+        },
+        "other_color": {
+          "numerator": 0,
+          "denominator": 8,
+          "rate": 0.0
+        },
+        "UNKNOWN": {
+          "numerator": 1,
+          "denominator": 8,
+          "rate": 0.125
+        },
+        "invalid": {
+          "numerator": 1,
+          "denominator": 8,
+          "rate": 0.125
+        }
+      },
+      "visible": {
+        "correct": {
+          "numerator": 4,
+          "denominator": 4,
+          "rate": 1.0
+        },
+        "wrong": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        }
+      },
+      "hidden_composition": {
+        "target_color": {
+          "numerator": 1,
+          "denominator": 4,
+          "rate": 0.25
+        },
+        "donor_color": {
+          "numerator": 1,
+          "denominator": 4,
+          "rate": 0.25
+        },
+        "other_color": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "UNKNOWN": {
+          "numerator": 1,
+          "denominator": 4,
+          "rate": 0.25
+        },
+        "invalid": {
+          "numerator": 1,
+          "denominator": 4,
+          "rate": 0.25
+        }
+      }
+    },
+    "blue/green": {
+      "n": 8,
+      "accuracy": {
+        "numerator": 4,
+        "denominator": 8,
+        "rate": 0.5
+      },
+      "donor_match": {
+        "numerator": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "UNKNOWN": {
+        "numerator": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "invalid": {
+        "numerator": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "any_definite_color": {
+        "numerator": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "composition": {
+        "target_color": {
+          "numerator": 4,
+          "denominator": 8,
+          "rate": 0.5
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 8,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 4,
+          "denominator": 8,
+          "rate": 0.5
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 8,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 8,
+          "rate": 0.0
+        }
+      },
+      "visible": {
+        "correct": {
+          "numerator": 4,
+          "denominator": 4,
+          "rate": 1.0
+        },
+        "wrong": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        }
+      },
+      "hidden_composition": {
+        "target_color": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 4,
+          "denominator": 4,
+          "rate": 1.0
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        }
+      }
+    },
+    "orange/red": {
+      "n": 8,
+      "accuracy": {
+        "numerator": 3,
+        "denominator": 8,
+        "rate": 0.375
+      },
+      "donor_match": {
+        "numerator": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "UNKNOWN": {
+        "numerator": 1,
+        "denominator": 8,
+        "rate": 0.125
+      },
+      "invalid": {
+        "numerator": 2,
+        "denominator": 8,
+        "rate": 0.25
+      },
+      "any_definite_color": {
+        "numerator": 5,
+        "denominator": 8,
+        "rate": 0.625
+      },
+      "composition": {
+        "target_color": {
+          "numerator": 2,
+          "denominator": 8,
+          "rate": 0.25
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 8,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 3,
+          "denominator": 8,
+          "rate": 0.375
+        },
+        "UNKNOWN": {
+          "numerator": 1,
+          "denominator": 8,
+          "rate": 0.125
+        },
+        "invalid": {
+          "numerator": 2,
+          "denominator": 8,
+          "rate": 0.25
+        }
+      },
+      "visible": {
+        "correct": {
+          "numerator": 2,
+          "denominator": 4,
+          "rate": 0.5
+        },
+        "wrong": {
+          "numerator": 2,
+          "denominator": 4,
+          "rate": 0.5
+        },
+        "UNKNOWN": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "invalid": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        }
+      },
+      "hidden_composition": {
+        "target_color": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "donor_color": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "other_color": {
+          "numerator": 1,
+          "denominator": 4,
+          "rate": 0.25
+        },
+        "UNKNOWN": {
+          "numerator": 1,
+          "denominator": 4,
+          "rate": 0.25
+        },
+        "invalid": {
+          "numerator": 2,
+          "denominator": 4,
+          "rate": 0.5
+        }
+      }
+    }
+  },
+  "h2_any_color_change": {
+    "point": 0.5,
+    "ci": [
+      0.0,
+      1.0
+    ],
+    "n_clusters": 3,
+    "n_scenes": 3,
+    "bootstrap_unit": "cluster",
+    "n_resamples": 10000,
+    "seed": 20261022,
+    "interval": "two-sided 95% percentile",
+    "numerator": 1.5,
+    "denominator": 3,
+    "numerator_definition": "sum of within-cluster mean scene contrasts"
+  },
+  "joint_selective_success": {
+    "I01": {
+      "point": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "n_clusters": 3,
+      "n_scenes": 3,
+      "bootstrap_unit": "cluster",
+      "n_resamples": 10000,
+      "seed": 20261022,
+      "interval": "two-sided 95% percentile",
+      "numerator": 0.0,
+      "denominator": 3,
+      "numerator_definition": "sum of within-cluster mean scene contrasts"
+    },
+    "I10": {
+      "point": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "n_clusters": 3,
+      "n_scenes": 3,
+      "bootstrap_unit": "cluster",
+      "n_resamples": 10000,
+      "seed": 20261022,
+      "interval": "two-sided 95% percentile",
+      "numerator": 0.0,
+      "denominator": 3,
+      "numerator_definition": "sum of within-cluster mean scene contrasts"
+    }
+  },
+  "full_factorial_success": {
+    "point": 0.0,
+    "ci": [
+      0.0,
+      0.0
+    ],
+    "n_clusters": 3,
+    "n_scenes": 3,
+    "bootstrap_unit": "cluster",
+    "n_resamples": 10000,
+    "seed": 20261022,
+    "interval": "two-sided 95% percentile",
+    "numerator": 0.0,
+    "denominator": 3,
+    "numerator_definition": "sum of within-cluster mean scene contrasts"
+  },
+  "gray_excluded": {
+    "n_excluded_scenes": 0,
+    "results": {
+      "delta_hidden": {
+        "point": 0.16666666666666666,
+        "ci": [
+          0.0,
+          0.5
+        ],
+        "n_clusters": 3,
+        "n_scenes": 3,
+        "bootstrap_unit": "cluster",
+        "n_resamples": 10000,
+        "seed": 20261022,
+        "interval": "two-sided 95% percentile",
+        "numerator": 0.5,
+        "denominator": 3,
+        "numerator_definition": "sum of within-cluster mean scene contrasts"
+      },
+      "delta_visible": {
+        "point": 0.0,
+        "ci": [
+          0.0,
+          0.0
+        ],
+        "n_clusters": 3,
+        "n_scenes": 3,
+        "bootstrap_unit": "cluster",
+        "n_resamples": 10000,
+        "seed": 20261022,
+        "interval": "two-sided 95% percentile",
+        "numerator": 0.0,
+        "denominator": 3,
+        "numerator_definition": "sum of within-cluster mean scene contrasts"
+      },
+      "psi": {
+        "point": 0.16666666666666666,
+        "ci": [
+          0.0,
+          0.5
+        ],
+        "n_clusters": 3,
+        "n_scenes": 3,
+        "bootstrap_unit": "cluster",
+        "n_resamples": 10000,
+        "seed": 20261022,
+        "interval": "two-sided 95% percentile",
+        "numerator": 0.5,
+        "denominator": 3,
+        "numerator_definition": "sum of within-cluster mean scene contrasts"
+      },
+      "variant": "primary",
+      "scene_event_counts": {
+        "any_donor_match": {
+          "scene_events": 1,
+          "n_scenes": 3,
+          "cluster_events": 1,
+          "n_clusters": 3,
+          "zero_event_scene_upper_95": null,
+          "zero_event_cluster_upper_95": null,
+          "scene_bound_assumes_independent_scenes": true
+        },
+        "any_invalid": {
+          "scene_events": 2,
+          "n_scenes": 3,
+          "cluster_events": 2,
+          "n_clusters": 3,
+          "zero_event_scene_upper_95": null,
+          "zero_event_cluster_upper_95": null,
+          "scene_bound_assumes_independent_scenes": true
+        },
+        "any_task_failure": {
+          "scene_events": 3,
+          "n_scenes": 3,
+          "cluster_events": 3,
+          "n_clusters": 3,
+          "zero_event_scene_upper_95": null,
+          "zero_event_cluster_upper_95": null,
+          "scene_bound_assumes_independent_scenes": true
+        },
+        "full_factorial_success": {
+          "scene_events": 0,
+          "n_scenes": 3,
+          "cluster_events": 0,
+          "n_clusters": 3,
+          "zero_event_scene_upper_95": 0.6315968501359612,
+          "zero_event_cluster_upper_95": 0.6315968501359612,
+          "scene_bound_assumes_independent_scenes": true
+        }
+      },
+      "donor_match_count": 1,
+      "query_denominator": 24
+    }
+  },
+  "tag_reversal": {
+    "delta_hidden": {
+      "point": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "n_clusters": 1,
+      "n_scenes": 1,
+      "bootstrap_unit": "cluster",
+      "n_resamples": 10000,
+      "seed": 20261022,
+      "interval": "two-sided 95% percentile",
+      "numerator": 0.0,
+      "denominator": 1,
+      "numerator_definition": "sum of within-cluster mean scene contrasts"
+    },
+    "delta_visible": {
+      "point": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "n_clusters": 1,
+      "n_scenes": 1,
+      "bootstrap_unit": "cluster",
+      "n_resamples": 10000,
+      "seed": 20261022,
+      "interval": "two-sided 95% percentile",
+      "numerator": 0.0,
+      "denominator": 1,
+      "numerator_definition": "sum of within-cluster mean scene contrasts"
+    },
+    "psi": {
+      "point": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "n_clusters": 1,
+      "n_scenes": 1,
+      "bootstrap_unit": "cluster",
+      "n_resamples": 10000,
+      "seed": 20261022,
+      "interval": "two-sided 95% percentile",
+      "numerator": 0.0,
+      "denominator": 1,
+      "numerator_definition": "sum of within-cluster mean scene contrasts"
+    },
+    "variant": "tag_reversal",
+    "scene_event_counts": {
+      "any_donor_match": {
+        "scene_events": 0,
+        "n_scenes": 1,
+        "cluster_events": 0,
+        "n_clusters": 1,
+        "zero_event_scene_upper_95": 0.95,
+        "zero_event_cluster_upper_95": 0.95,
+        "scene_bound_assumes_independent_scenes": true
+      },
+      "any_invalid": {
+        "scene_events": 1,
+        "n_scenes": 1,
+        "cluster_events": 1,
+        "n_clusters": 1,
+        "zero_event_scene_upper_95": null,
+        "zero_event_cluster_upper_95": null,
+        "scene_bound_assumes_independent_scenes": true
+      },
+      "any_task_failure": {
+        "scene_events": 1,
+        "n_scenes": 1,
+        "cluster_events": 1,
+        "n_clusters": 1,
+        "zero_event_scene_upper_95": null,
+        "zero_event_cluster_upper_95": null,
+        "scene_bound_assumes_independent_scenes": true
+      },
+      "full_factorial_success": {
+        "scene_events": 0,
+        "n_scenes": 1,
+        "cluster_events": 0,
+        "n_clusters": 1,
+        "zero_event_scene_upper_95": 0.95,
+        "zero_event_cluster_upper_95": 0.95,
+        "scene_bound_assumes_independent_scenes": true
+      }
+    },
+    "donor_match_count": 0,
+    "query_denominator": 8
+  },
+  "valid_output_rate": {
+    "numerator": 33,
+    "denominator": 36,
+    "rate": 0.9166666666666666
+  },
+  "invalid_by_condition": {
+    "I11": {
+      "numerator": 0,
+      "denominator": 6,
+      "rate": 0.0
+    },
+    "I01": {
+      "numerator": 1,
+      "denominator": 6,
+      "rate": 0.16666666666666666
+    },
+    "I10": {
+      "numerator": 0,
+      "denominator": 6,
+      "rate": 0.0
+    },
+    "I00": {
+      "numerator": 2,
+      "denominator": 6,
+      "rate": 0.3333333333333333
+    },
+    "clean": {
+      "numerator": 0,
+      "denominator": 6,
+      "rate": 0.0
+    },
+    "iso": {
+      "numerator": 0,
+      "denominator": 6,
+      "rate": 0.0
+    }
+  },
+  "truncation_by_condition": {
+    "I11": {
+      "numerator": 0,
+      "denominator": 6,
+      "rate": 0.0
+    },
+    "I01": {
+      "numerator": 0,
+      "denominator": 6,
+      "rate": 0.0
+    },
+    "I10": {
+      "numerator": 0,
+      "denominator": 6,
+      "rate": 0.0
+    },
+    "I00": {
+      "numerator": 0,
+      "denominator": 6,
+      "rate": 0.0
+    },
+    "clean": {
+      "numerator": 0,
+      "denominator": 6,
+      "rate": 0.0
+    },
+    "iso": {
+      "numerator": 0,
+      "denominator": 6,
+      "rate": 0.0
+    }
+  },
+  "isolation_clean_relation": {
+    "clean_0_iso_0": 1,
+    "clean_0_iso_1": 0,
+    "clean_1_iso_0": 0,
+    "clean_1_iso_1": 5
+  },
+  "operating_point": {
+    "visible_risk": {
+      "numerator": 2,
+      "denominator": 12,
+      "rate": 0.16666666666666666
+    },
+    "hidden_definite_label_rate": {
+      "numerator": 7,
+      "denominator": 12,
+      "rate": 0.5833333333333334
+    }
+  },
+  "validation_checks": [
+    {
+      "name": "inference_provenance",
+      "status": "SKIPPED",
+      "detail": "No linked raw/query artifacts"
+    },
+    {
+      "name": "valid_rate",
+      "status": "FAIL",
+      "detail": {
+        "rate": 0.9090909090909091,
+        "minimum": 0.99
+      }
+    },
+    {
+      "name": "pilot_heldout_disjoint",
+      "status": "PASS",
+      "detail": {
+        "overlap": [],
+        "known": true
+      }
+    },
+    {
+      "name": "bootstrap_unit_cluster",
+      "status": "PASS",
+      "detail": "Scenes averaged within clusters before resampling"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "evidence_level": "pilot",
+  "annotation_status": "exploratory_single_rater",
+  "always_UNKNOWN": {
+    "status": "PASS",
+    "constant_color": null,
+    "contrasts": {
+      "psi": 0.0,
+      "delta_hidden": 0.0,
+      "delta_visible": 0.0
+    },
+    "accuracy": {
+      "numerator": 16,
+      "denominator": 32,
+      "rate": 0.5
+    },
+    "joint_success": 0.0,
+    "full_factorial_success": 0.0
+  },
+  "constant_color": {
+    "status": "SKIPPED",
+    "reason": "No supplied reference (pilot) labels"
+  },
+  "scene_heuristic": {
+    "status": "PASS",
+    "constant_color": null,
+    "contrasts": {
+      "psi": 1.0,
+      "delta_hidden": 1.0,
+      "delta_visible": 0.0
+    },
+    "accuracy": {
+      "numerator": 24,
+      "denominator": 32,
+      "rate": 0.75
+    },
+    "joint_success": 0.0,
+    "full_factorial_success": 0.0
+  },
+  "uniform_random": {
+    "status": "PASS",
+    "contrasts": {
+      "psi": 0.0,
+      "delta_hidden": 0.0,
+      "delta_visible": 0.0
+    },
+    "expected_accuracy": 0.08333333333333333,
+    "expected_donor_match": 0.08333333333333333,
+    "expected_joint_success": 0.006944444444444444,
+    "expected_full_factorial_success": 2.3256803936137784e-09
+  },
+  "definitions": {
+    "scene_heuristic": "Use the sole visible color irrespective of target; when both visible use target color, when neither visible UNKNOWN",
+    "constant_reference": "Supplied pilot/reference latent labels only; never inferred from held-out outputs",
+    "constant_tie_break": "First appearance in supplied reference labels"
+  }
+}

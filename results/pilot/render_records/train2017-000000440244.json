@@ -1,0 +1,366 @@
+{
+  "schema": "eob.render.v1",
+  "scene_id": "train2017-000000440244",
+  "study_split": "pilot",
+  "cluster_id": "train2017-000000440244",
+  "renderer_version": "1.0.0",
+  "pillow_version": "12.3.0",
+  "input_sha256": "1d8e0e6b06ffc3d0c85ba2703a30b1041e5815827494c88f0711c5ffc195aa98",
+  "source_image_sha256": "d43fa469e8354bb511d1740f6b27c80f1127dae02cc5a7c1edd437b8af886904",
+  "canvas_transform": {
+    "scale": 1.0,
+    "offset": [
+      192,
+      332
+    ],
+    "resized_size": [
+      640,
+      360
+    ],
+    "canvas_size": [
+      1024,
+      1024
+    ],
+    "orig_size": [
+      640,
+      360
+    ]
+  },
+  "mask_areas": {
+    "M_A": 9496,
+    "S_A": 9496,
+    "M_B": 11031,
+    "S_B": 11031
+  },
+  "applied_mask_area": {
+    "I11": 20527,
+    "I01": 20527,
+    "I10": 20527,
+    "I00": 20527
+  },
+  "masked_canvas_fraction": {
+    "I11": 0.019576072692871094,
+    "I01": 0.019576072692871094,
+    "I10": 0.019576072692871094,
+    "I00": 0.019576072692871094
+  },
+  "garment_bbox_canvas": {
+    "A": [
+      533,
+      501,
+      642,
+      601
+    ],
+    "B": [
+      332,
+      463,
+      448,
+      572
+    ]
+  },
+  "garment_measurements_canvas": {
+    "A": {
+      "width": 109,
+      "height": 100,
+      "area": 7555
+    },
+    "B": {
+      "width": 116,
+      "height": 109,
+      "area": 8731
+    }
+  },
+  "marker_geometry": {
+    "A": {
+      "box": [
+        514,
+        423,
+        670,
+        695
+      ],
+      "tag": [
+        514,
+        396,
+        539,
+        420
+      ]
+    },
+    "B": {
+      "box": [
+        323,
+        335,
+        504,
+        695
+      ],
+      "tag": [
+        323,
+        308,
+        348,
+        332
+      ]
+    }
+  },
+  "images": {
+    "canvas": {
+      "path": "rendered/pilot/train2017-000000440244/canvas.png",
+      "sha256": "028dfe674830b6ca1c1760e78bebcc8b248c81f250cea5d897f80ba84458a8f0",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "clean": {
+      "path": "rendered/pilot/train2017-000000440244/clean.png",
+      "sha256": "a7aa9acf2529518df527e87761820092f48665db9e45a0cb5bece1008ad5ce58",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "I11": {
+      "path": "rendered/pilot/train2017-000000440244/I11.png",
+      "sha256": "e93c23e10eaad96711b79eec58b7dd9d51b5f159294d9f11e423038c6f138385",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "I01": {
+      "path": "rendered/pilot/train2017-000000440244/I01.png",
+      "sha256": "ba49ff216a67c112a24638a82ddab357c2ce5df99bee26ce170b7db7fffb5dcc",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "I10": {
+      "path": "rendered/pilot/train2017-000000440244/I10.png",
+      "sha256": "72a35c2b832233ed589db3398d58f1c67aa0458df125aab0b5b92c3da681f6ed",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "I00": {
+      "path": "rendered/pilot/train2017-000000440244/I00.png",
+      "sha256": "d0f45971f48f264d891cad565256b512c363daa2f5f58a0645889079ea960306",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "iso_A": {
+      "path": "rendered/pilot/train2017-000000440244/iso_A.png",
+      "sha256": "fd4d0d957ea2cc7ad2d25a426420f7e1c7440925d703a3a4f2a7e188fd82ba44",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "iso_B": {
+      "path": "rendered/pilot/train2017-000000440244/iso_B.png",
+      "sha256": "b2398c4fcc3798aa6c46337fe33490b0beb6750c5b447edec3dd1e4b599988a0",
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "gold": {
+    "clean": {
+      "A": {
+        "visible": true,
+        "task_gold": "black"
+      },
+      "B": {
+        "visible": true,
+        "task_gold": "white"
+      }
+    },
+    "canvas": {
+      "A": {
+        "visible": true,
+        "task_gold": "black"
+      },
+      "B": {
+        "visible": true,
+        "task_gold": "white"
+      }
+    },
+    "I11": {
+      "A": {
+        "visible": true,
+        "task_gold": "black"
+      },
+      "B": {
+        "visible": true,
+        "task_gold": "white"
+      }
+    },
+    "I01": {
+      "A": {
+        "visible": false,
+        "task_gold": "UNKNOWN"
+      },
+      "B": {
+        "visible": true,
+        "task_gold": "white"
+      }
+    },
+    "I10": {
+      "A": {
+        "visible": true,
+        "task_gold": "black"
+      },
+      "B": {
+        "visible": false,
+        "task_gold": "UNKNOWN"
+      }
+    },
+    "I00": {
+      "A": {
+        "visible": false,
+        "task_gold": "UNKNOWN"
+      },
+      "B": {
+        "visible": false,
+        "task_gold": "UNKNOWN"
+      }
+    },
+    "iso_A": {
+      "A": {
+        "visible": true,
+        "task_gold": "black"
+      }
+    },
+    "iso_B": {
+      "B": {
+        "visible": true,
+        "task_gold": "white"
+      }
+    }
+  },
+  "checks": [
+    {
+      "name": "image_roundtrip",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "mask_roundtrip",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "masks_disjoint",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "no_clipping",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "sham_translation",
+      "status": "PASS",
+      "detail": "Shams must be exact integer translations"
+    },
+    {
+      "name": "shams_inside_content",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "shams_outside_person_bboxes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "equal_applied_mask_area",
+      "status": "PASS",
+      "detail": "{'I11': 20527, 'I01': 20527, 'I10': 20527, 'I00': 20527}"
+    },
+    {
+      "name": "masked_fraction",
+      "status": "PASS",
+      "detail": "{'I11': 20527, 'I01': 20527, 'I10': 20527, 'I00': 20527}"
+    },
+    {
+      "name": "garment_size_A",
+      "status": "PASS",
+      "detail": "{'width': 109, 'height': 100, 'area': 7555, 'cohorts': {'original': True, 'moderate': True, 'expanded': True}}"
+    },
+    {
+      "name": "garment_size_B",
+      "status": "PASS",
+      "detail": "{'width': 116, 'height': 109, 'area': 8731, 'cohorts': {'original': True, 'moderate': True, 'expanded': True}}"
+    },
+    {
+      "name": "pixel_preservation_I11",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "complete_removal_I11",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "pixel_preservation_I01",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "complete_removal_I01",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "pixel_preservation_I10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "complete_removal_I10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "pixel_preservation_I00",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "complete_removal_I00",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "garment_inside_own_box_A",
+      "status": "PASS",
+      "detail": "{'fraction_inside': 1.0}"
+    },
+    {
+      "name": "garment_inside_own_box_B",
+      "status": "PASS",
+      "detail": "{'fraction_inside': 1.0}"
+    },
+    {
+      "name": "marker_keepout",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "tag_reversal_only_tags",
+      "status": "SKIPPED",
+      "detail": "No tag reversal requested"
+    },
+    {
+      "name": "distinct_valid_colors",
+      "status": "PASS",
+      "detail": "['black', 'white']"
+    }
+  ],
+  "status": "PASS"
+}

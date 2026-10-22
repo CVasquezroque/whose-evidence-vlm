@@ -1,0 +1,22 @@
+{
+  "coco_split": "train2017",
+  "created_utc": "2026-10-22T08:51:25+00:00",
+  "instances_json": "instances_train2017.json",
+  "instances_json_sha256": null,
+  "hash_salt": "fatima-evidence-2026-v1:",
+  "ab_assignment_salt": "fatima-evidence-2026-v1:ab-assignment:",
+  "iou_max_exclusive": 0.05,
+  "python": "3.11.15",
+  "automatic_criteria_only": true,
+  "stats": {
+    "pass": 7419,
+    "not_exactly_two_persons": 48173,
+    "crowd_person_annotation": 5212,
+    "person_bbox_iou_too_high": 3311,
+    "no_person": 54172,
+    "size_prescreen_pass": 4089,
+    "images_total": 118287,
+    "images_with_person": 64115,
+    "candidates": 7419
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "scene_id": "synthetic-000001",
+  "source_image_id": 0,
+  "coco_split": "train2017",
+  "study_split": "pilot",
+  "file_name": "synthetic.png",
+  "width": 800,
+  "height": 600,
+  "order_key": "synthetic",
+  "order_rank": 0,
+  "ab_bit": 0,
+  "persons": {
+    "A": {
+      "coco_ann_id": 1,
+      "bbox_xywh": [
+        145,
+        75,
+        150,
+        315
+      ],
+      "side": "left",
+      "area": 47250,
+      "latent_color": "blue",
+      "garment_polygons_orig": [
+        [
+          [
+            170,
+            140
+          ],
+          [
+            270,
+            140
+          ],
+          [
+            270,
+            250
+          ],
+          [
+            170,
+            250
+          ]
+        ]
+      ]
+    },
+    "B": {
+      "coco_ann_id": 2,
+      "bbox_xywh": [
+        505,
+        75,
+        150,
+        315
+      ],
+      "side": "right",
+      "area": 47250,
+      "latent_color": "red",
+      "garment_polygons_orig": [
+        [
+          [
+            530,
+            140
+          ],
+          [
+            630,
+            140
+          ],
+          [
+            630,
+            250
+          ],
+          [
+            530,
+            250
+          ]
+        ]
+      ]
+    }
+  },
+  "persons_canvas": {
+    "A": {
+      "bbox_xyxy": [
+        257.0,
+        287.0,
+        407.0,
+        602.0
+      ]
+    },
+    "B": {
+      "bbox_xyxy": [
+        617.0,
+        287.0,
+        767.0,
+        602.0
+      ]
+    }
+  },
+  "bbox_iou": 0.0,
+  "canvas_transform": {
+    "scale": 1.0,
+    "offset": [
+      112,
+      212
+    ],
+    "resized_size": [
+      800,
+      600
+    ],
+    "canvas_size": [
+      1024,
+      1024
+    ],
+    "orig_size": [
+      800,
+      600
+    ]
+  },
+  "license": {
+    "id": 0,
+    "name": "SYNTHETIC",
+    "url": ""
+  },
+  "coco_url": "",
+  "flickr_url": "",
+  "image_sha256": null,
+  "sham_translations_canvas": {
+    "A": [
+      0,
+      300
+    ],
+    "B": [
+      0,
+      300
+    ]
+  },
+  "cluster_id": "synthetic-000001",
+  "robustness_subset": true,
+  "annotation_status": "exploratory_single_rater",
+  "annotation_provenance": {
+    "author": "synthetic",
+    "rater1": null,
+    "rater2": null
+  }
+}

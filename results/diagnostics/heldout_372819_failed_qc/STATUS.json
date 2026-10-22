@@ -1,0 +1,16 @@
+{
+  "status": "FAILED INTERVENTION QC \u2014 residual garment evidence; excluded from scientific analysis",
+  "scene_id": "val2017-000000372819",
+  "automatic_render_checks": "PASS (geometry/pixel invariants only)",
+  "qc_findings": [
+    "A's jacket remains partially visible below the mask in I00/I01",
+    "B's multicoloured open jacket keeps an orange region unmasked",
+    "B's recorded colour 'white' is questionable for the outermost-garment definition",
+    "Under the original 48x48/2304 policy garment A fails the area threshold (1728 px^2)"
+  ],
+  "qc_method": "visual inspection of rendered I00 against clean image; no independent human rater audit",
+  "generations": 20,
+  "execution_errors": 0,
+  "interpretation": "None. Hidden-target answers equal each target's own original colour (4/4 primary), consistent with residual evidence; not evidence about behaviour under successful occlusion.",
+  "human_annotation": "unchanged (data/annotations/author/val2017-000000372819.json)"
+}

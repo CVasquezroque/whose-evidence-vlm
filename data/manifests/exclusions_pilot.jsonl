@@ -1,0 +1,13 @@
+{"scene_id": "train2017-000000574217", "order_rank": 2, "stage": "author_screen", "decision": "reject", "reasons": ["same_color"], "notes": ""}
+{"scene_id": "train2017-000000350435", "order_rank": 3, "stage": "author_screen", "decision": "unsure", "reasons": ["cannot_mask_cleanly"], "notes": ""}
+{"scene_id": "train2017-000000566584", "order_rank": 4, "stage": "author_screen", "decision": "reject", "reasons": ["no_sham_location"], "notes": ""}
+{"scene_id": "train2017-000000455529", "order_rank": 7, "stage": "author_screen", "decision": "reject", "reasons": ["no_clear_garment"], "notes": ""}
+{"scene_id": "train2017-000000183882", "order_rank": 8, "stage": "author_screen", "decision": "reject", "reasons": ["not_two_actual_people"], "notes": ""}
+{"scene_id": "train2017-000000054989", "order_rank": 10, "stage": "author_screen", "decision": "reject", "reasons": ["not_two_actual_people"], "notes": ""}
+{"scene_id": "train2017-000000029275", "order_rank": 13, "stage": "author_screen", "decision": "reject", "reasons": ["ambiguous_color", "cannot_mask_cleanly"], "notes": ""}
+{"scene_id": "train2017-000000320978", "order_rank": 14, "stage": "author_screen", "decision": "reject", "reasons": ["no_clear_garment", "ambiguous_color", "cannot_mask_cleanly"], "notes": ""}
+{"scene_id": "train2017-000000557081", "order_rank": 15, "stage": "author_screen", "decision": "unsure", "reasons": ["same_color"], "notes": ""}
+{"scene_id": "train2017-000000132529", "order_rank": 35, "stage": "author_screen", "decision": "reject", "reasons": ["no_sham_location"], "notes": ""}
+{"scene_id": "train2017-000000399582", "order_rank": 56, "stage": "author_screen", "decision": "reject", "reasons": ["no_sham_location"], "notes": ""}
+{"scene_id": "train2017-000000181829", "order_rank": 75, "stage": "author_screen", "decision": "reject", "reasons": ["no_sham_location"], "notes": ""}
+{"scene_id": "train2017-000000455313", "order_rank": 81, "stage": "author_screen", "decision": "reject", "reasons": ["no_sham_location"], "notes": ""}

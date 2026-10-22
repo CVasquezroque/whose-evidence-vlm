@@ -1,0 +1,371 @@
+{
+  "schema": "eob.annotation.v1",
+  "role": "author",
+  "annotator_id": "CEVR",
+  "scene_id": "train2017-000000009450",
+  "source_image_id": 9450,
+  "coco_split": "train2017",
+  "decision": "eligible",
+  "reject_reasons": [],
+  "checks": {
+    "exactly_two_people": true,
+    "boxes_correct": true,
+    "single_outer_garment_A": true,
+    "single_outer_garment_B": true,
+    "dominant_color_A": true,
+    "dominant_color_B": true,
+    "colors_differ": true,
+    "fully_coverable": true,
+    "designation_clear": true,
+    "sham_background_ok": true
+  },
+  "persons": {
+    "A": {
+      "color": "orange",
+      "color_confidence": "certain",
+      "garment_polygons_orig": [
+        [
+          [
+            187.5,
+            82
+          ],
+          [
+            200,
+            85.5
+          ],
+          [
+            205.5,
+            94
+          ],
+          [
+            204.5,
+            122
+          ],
+          [
+            202.5,
+            131
+          ],
+          [
+            206.5,
+            143
+          ],
+          [
+            206.5,
+            156
+          ],
+          [
+            203,
+            157.5
+          ],
+          [
+            186,
+            158.5
+          ],
+          [
+            168,
+            155.5
+          ],
+          [
+            164.5,
+            153
+          ],
+          [
+            166.5,
+            149
+          ],
+          [
+            166.5,
+            137
+          ],
+          [
+            168.5,
+            132
+          ],
+          [
+            174,
+            126.5
+          ],
+          [
+            191,
+            124.5
+          ],
+          [
+            200.5,
+            118
+          ],
+          [
+            199,
+            114.5
+          ],
+          [
+            195,
+            113.5
+          ],
+          [
+            187,
+            114.5
+          ],
+          [
+            171,
+            120.5
+          ],
+          [
+            168.5,
+            120
+          ],
+          [
+            175.5,
+            92
+          ],
+          [
+            181,
+            84.5
+          ]
+        ]
+      ],
+      "notes": "",
+      "mask_source": "sam_assisted",
+      "edited_after_sam": false,
+      "sam_assist": {
+        "score": 0.9954218864440918,
+        "mask_area_px": 2252,
+        "candidates": [
+          {
+            "score": 0.9954218864440918,
+            "area_px": 2252
+          }
+        ],
+        "selection_rule": "SAM-HQ internal max-IoU multimask (1 point) or single mask (>1 point)",
+        "points_orig": [
+          [
+            185.7,
+            135.68
+          ]
+        ],
+        "labels": [
+          1
+        ],
+        "multimask_index": 0,
+        "model": "sam-hq_vit_l",
+        "checkpoint": "sam_hq_vit_l.pth",
+        "checkpoint_sha256": "e1a6c385d62bf005ded91a54d5ec55c985cfc4103ef89c08d90f39f04934c343",
+        "device": "cuda:0",
+        "cuda_visible_devices": "1",
+        "torch": "2.11.0+cu128",
+        "simplify_tol_px": 1,
+        "min_component_px": 64,
+        "accepted_utc": "2026-10-22T10:38:57.336Z"
+      }
+    },
+    "B": {
+      "color": "green",
+      "color_confidence": "certain",
+      "garment_polygons_orig": [
+        [
+          [
+            318.5,
+            188
+          ],
+          [
+            324,
+            188.5
+          ],
+          [
+            332,
+            194.5
+          ],
+          [
+            359.5,
+            222
+          ],
+          [
+            364.5,
+            229
+          ],
+          [
+            366.5,
+            233
+          ],
+          [
+            366.5,
+            238
+          ],
+          [
+            364.5,
+            246
+          ],
+          [
+            360,
+            253.5
+          ],
+          [
+            354,
+            254.5
+          ],
+          [
+            352.5,
+            251
+          ],
+          [
+            349,
+            249.5
+          ],
+          [
+            342.5,
+            243
+          ],
+          [
+            340.5,
+            228
+          ],
+          [
+            339,
+            226.5
+          ],
+          [
+            334,
+            226.5
+          ],
+          [
+            331.5,
+            228
+          ],
+          [
+            330.5,
+            231
+          ],
+          [
+            334.5,
+            246
+          ],
+          [
+            332.5,
+            247
+          ],
+          [
+            325.5,
+            262
+          ],
+          [
+            324,
+            263.5
+          ],
+          [
+            320,
+            263.5
+          ],
+          [
+            318.5,
+            262
+          ],
+          [
+            318.5,
+            253
+          ],
+          [
+            320.5,
+            251
+          ],
+          [
+            319.5,
+            240
+          ],
+          [
+            314,
+            236.5
+          ],
+          [
+            306,
+            237.5
+          ],
+          [
+            300,
+            236.5
+          ],
+          [
+            296.5,
+            234
+          ],
+          [
+            297.5,
+            214
+          ],
+          [
+            295.5,
+            201
+          ],
+          [
+            301,
+            195.5
+          ],
+          [
+            303,
+            195.5
+          ],
+          [
+            306,
+            199.5
+          ],
+          [
+            311,
+            198.5
+          ]
+        ]
+      ],
+      "notes": "",
+      "mask_source": "sam_assisted",
+      "edited_after_sam": false,
+      "sam_assist": {
+        "score": 0.8998691439628601,
+        "mask_area_px": 2857,
+        "candidates": [
+          {
+            "score": 0.8998691439628601,
+            "area_px": 2857
+          }
+        ],
+        "selection_rule": "SAM-HQ internal max-IoU multimask (1 point) or single mask (>1 point)",
+        "points_orig": [
+          [
+            321.46,
+            205.84
+          ],
+          [
+            354.53,
+            229.67
+          ]
+        ],
+        "labels": [
+          1,
+          1
+        ],
+        "multimask_index": 0,
+        "model": "sam-hq_vit_l",
+        "checkpoint": "sam_hq_vit_l.pth",
+        "checkpoint_sha256": "e1a6c385d62bf005ded91a54d5ec55c985cfc4103ef89c08d90f39f04934c343",
+        "device": "cuda:0",
+        "cuda_visible_devices": "1",
+        "torch": "2.11.0+cu128",
+        "simplify_tol_px": 1,
+        "min_component_px": 64,
+        "accepted_utc": "2026-10-22T10:39:04.643Z"
+      }
+    }
+  },
+  "sham_translations_canvas": {
+    "A": [
+      -68,
+      -2
+    ],
+    "B": [
+      92,
+      0
+    ]
+  },
+  "review": {},
+  "rater_was_mask_author": null,
+  "notes": "",
+  "created_utc": "2026-10-22T10:39:25+00:00",
+  "updated_utc": "2026-10-22T10:39:33+00:00",
+  "tool_version": "eob-annotator-0.1"
+}

@@ -1,0 +1,5 @@
+control,numerator,denominator,rate,evidence_level,annotation_status,ci_low,ci_high
+clean,7.0,8,0.875,pilot,exploratory_single_rater,,
+I11,7.0,8,0.875,pilot,exploratory_single_rater,,
+iso,7.0,8,0.875,pilot,exploratory_single_rater,,
+paired_clean_minus_sham,0.0,4,0.0,pilot,exploratory_single_rater,0.0,0.0

@@ -1,0 +1,12 @@
+{
+  "evidence_level": "pilot",
+  "annotation_status": "exploratory_single_rater",
+  "psi": {
+    "lower": -0.1,
+    "upper": 0.3
+  },
+  "delta_hidden": {
+    "lower": -0.1,
+    "upper": 0.2
+  }
+}

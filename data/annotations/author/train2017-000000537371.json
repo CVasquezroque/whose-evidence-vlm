@@ -1,0 +1,446 @@
+{
+  "schema": "eob.annotation.v1",
+  "role": "author",
+  "annotator_id": "CEVR",
+  "scene_id": "train2017-000000537371",
+  "source_image_id": 537371,
+  "coco_split": "train2017",
+  "decision": "eligible",
+  "reject_reasons": [],
+  "checks": {
+    "exactly_two_people": true,
+    "boxes_correct": true,
+    "single_outer_garment_A": true,
+    "single_outer_garment_B": true,
+    "dominant_color_A": true,
+    "dominant_color_B": true,
+    "colors_differ": true,
+    "fully_coverable": true,
+    "designation_clear": true,
+    "sham_background_ok": true
+  },
+  "persons": {
+    "A": {
+      "color": "blue",
+      "color_confidence": "certain",
+      "garment_polygons_orig": [
+        [
+          [
+            275.5,
+            58
+          ],
+          [
+            280,
+            57.5
+          ],
+          [
+            291,
+            67.5
+          ],
+          [
+            309,
+            78.5
+          ],
+          [
+            326.5,
+            99
+          ],
+          [
+            331.5,
+            113
+          ],
+          [
+            331.5,
+            156
+          ],
+          [
+            320,
+            158.5
+          ],
+          [
+            305,
+            158.5
+          ],
+          [
+            281,
+            161.5
+          ],
+          [
+            261,
+            167.5
+          ],
+          [
+            240,
+            169.5
+          ],
+          [
+            224,
+            169.5
+          ],
+          [
+            211,
+            167.5
+          ],
+          [
+            207.5,
+            161
+          ],
+          [
+            202.5,
+            137
+          ],
+          [
+            188.5,
+            129
+          ],
+          [
+            188.5,
+            123
+          ],
+          [
+            192.5,
+            114
+          ],
+          [
+            193.5,
+            104
+          ],
+          [
+            197.5,
+            94
+          ],
+          [
+            197.5,
+            87
+          ],
+          [
+            201.5,
+            78
+          ],
+          [
+            206,
+            76.5
+          ],
+          [
+            211,
+            81.5
+          ],
+          [
+            216,
+            83.5
+          ],
+          [
+            230,
+            81.5
+          ],
+          [
+            239,
+            90.5
+          ],
+          [
+            246,
+            93.5
+          ],
+          [
+            258,
+            92.5
+          ],
+          [
+            268,
+            87.5
+          ],
+          [
+            275.5,
+            81
+          ]
+        ]
+      ],
+      "notes": "",
+      "mask_source": "sam_assisted",
+      "edited_after_sam": false,
+      "sam_assist": {
+        "score": 1.0114392042160034,
+        "mask_area_px": 10928,
+        "candidates": [
+          {
+            "score": 1.0114392042160034,
+            "area_px": 10928
+          }
+        ],
+        "selection_rule": "SAM-HQ internal max-IoU multimask (1 point) or single mask (>1 point)",
+        "points_orig": [
+          [
+            277.94,
+            117.64
+          ]
+        ],
+        "labels": [
+          1
+        ],
+        "multimask_index": 0,
+        "model": "sam-hq_vit_l",
+        "checkpoint": "sam_hq_vit_l.pth",
+        "checkpoint_sha256": "e1a6c385d62bf005ded91a54d5ec55c985cfc4103ef89c08d90f39f04934c343",
+        "device": "cuda:0",
+        "cuda_visible_devices": "1",
+        "torch": "2.11.0+cu128",
+        "simplify_tol_px": 1,
+        "min_component_px": 64,
+        "accepted_utc": "2026-10-22T10:49:06.000Z"
+      }
+    },
+    "B": {
+      "color": "white",
+      "color_confidence": "certain",
+      "garment_polygons_orig": [
+        [
+          [
+            469.5,
+            52
+          ],
+          [
+            481,
+            53.5
+          ],
+          [
+            491,
+            58.5
+          ],
+          [
+            510,
+            63.5
+          ],
+          [
+            533,
+            75.5
+          ],
+          [
+            545,
+            75.5
+          ],
+          [
+            569,
+            89.5
+          ],
+          [
+            579,
+            97.5
+          ],
+          [
+            587,
+            107.5
+          ],
+          [
+            600,
+            114.5
+          ],
+          [
+            604.5,
+            119
+          ],
+          [
+            604.5,
+            134
+          ],
+          [
+            595.5,
+            161
+          ],
+          [
+            590.5,
+            170
+          ],
+          [
+            582,
+            178.5
+          ],
+          [
+            579,
+            180.5
+          ],
+          [
+            571,
+            180.5
+          ],
+          [
+            567,
+            178.5
+          ],
+          [
+            557,
+            166.5
+          ],
+          [
+            543,
+            163.5
+          ],
+          [
+            535,
+            164.5
+          ],
+          [
+            531.5,
+            169
+          ],
+          [
+            529.5,
+            182
+          ],
+          [
+            528,
+            183.5
+          ],
+          [
+            523,
+            183.5
+          ],
+          [
+            497,
+            176.5
+          ],
+          [
+            490,
+            176.5
+          ],
+          [
+            459,
+            169.5
+          ],
+          [
+            450,
+            169.5
+          ],
+          [
+            437,
+            165.5
+          ],
+          [
+            386,
+            163.5
+          ],
+          [
+            366,
+            159.5
+          ],
+          [
+            341,
+            158.5
+          ],
+          [
+            335.5,
+            156
+          ],
+          [
+            335.5,
+            150
+          ],
+          [
+            341.5,
+            135
+          ],
+          [
+            343.5,
+            124
+          ],
+          [
+            354.5,
+            99
+          ],
+          [
+            359,
+            94.5
+          ],
+          [
+            391,
+            79.5
+          ],
+          [
+            400,
+            73.5
+          ],
+          [
+            406,
+            74.5
+          ],
+          [
+            407.5,
+            82
+          ],
+          [
+            411,
+            85.5
+          ],
+          [
+            416,
+            87.5
+          ],
+          [
+            431,
+            87.5
+          ],
+          [
+            437,
+            85.5
+          ],
+          [
+            452,
+            77.5
+          ],
+          [
+            463.5,
+            66
+          ]
+        ]
+      ],
+      "notes": "",
+      "mask_source": "sam_assisted",
+      "edited_after_sam": false,
+      "sam_assist": {
+        "score": 1.0036829710006714,
+        "mask_area_px": 22954,
+        "candidates": [
+          {
+            "score": 1.0036829710006714,
+            "area_px": 22954
+          }
+        ],
+        "selection_rule": "SAM-HQ internal max-IoU multimask (1 point) or single mask (>1 point)",
+        "points_orig": [
+          [
+            478.1,
+            114.7
+          ]
+        ],
+        "labels": [
+          1
+        ],
+        "multimask_index": 0,
+        "model": "sam-hq_vit_l",
+        "checkpoint": "sam_hq_vit_l.pth",
+        "checkpoint_sha256": "e1a6c385d62bf005ded91a54d5ec55c985cfc4103ef89c08d90f39f04934c343",
+        "device": "cuda:0",
+        "cuda_visible_devices": "1",
+        "torch": "2.11.0+cu128",
+        "simplify_tol_px": 1,
+        "min_component_px": 64,
+        "accepted_utc": "2026-10-22T10:49:11.963Z"
+      }
+    }
+  },
+  "sham_translations_canvas": {
+    "A": [
+      -24,
+      179
+    ],
+    "B": [
+      1,
+      224
+    ]
+  },
+  "review": {},
+  "rater_was_mask_author": null,
+  "notes": "",
+  "created_utc": "2026-10-22T10:34:12+00:00",
+  "updated_utc": "2026-10-22T10:49:30+00:00",
+  "tool_version": "eob-annotator-0.1"
+}

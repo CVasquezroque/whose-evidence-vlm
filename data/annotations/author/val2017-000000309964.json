@@ -1,0 +1,546 @@
+{
+  "schema": "eob.annotation.v1",
+  "role": "author",
+  "annotator_id": "CEVR",
+  "scene_id": "val2017-000000309964",
+  "source_image_id": 309964,
+  "coco_split": "val2017",
+  "decision": "unsure",
+  "reject_reasons": [
+    "no_sham_location"
+  ],
+  "checks": {
+    "exactly_two_people": true,
+    "boxes_correct": true,
+    "single_outer_garment_A": true,
+    "single_outer_garment_B": true,
+    "dominant_color_A": true,
+    "dominant_color_B": true,
+    "fully_coverable": true,
+    "colors_differ": true,
+    "designation_clear": true,
+    "sham_background_ok": true
+  },
+  "persons": {
+    "A": {
+      "color": "gray",
+      "color_confidence": "certain",
+      "garment_polygons_orig": [
+        [
+          [
+            147.5,
+            132
+          ],
+          [
+            149.5,
+            132
+          ],
+          [
+            148.5,
+            143
+          ],
+          [
+            152.5,
+            152
+          ],
+          [
+            155.5,
+            153
+          ],
+          [
+            155.5,
+            164
+          ],
+          [
+            159,
+            167.5
+          ],
+          [
+            165,
+            169.5
+          ],
+          [
+            177,
+            177.5
+          ],
+          [
+            181,
+            176.5
+          ],
+          [
+            191.5,
+            167
+          ],
+          [
+            192.5,
+            156
+          ],
+          [
+            203,
+            146.5
+          ],
+          [
+            208,
+            144.5
+          ],
+          [
+            216.5,
+            153
+          ],
+          [
+            219.5,
+            159
+          ],
+          [
+            221.5,
+            165
+          ],
+          [
+            221.5,
+            174
+          ],
+          [
+            228.5,
+            189
+          ],
+          [
+            231.5,
+            218
+          ],
+          [
+            229.5,
+            223
+          ],
+          [
+            224.5,
+            228
+          ],
+          [
+            221.5,
+            238
+          ],
+          [
+            218,
+            240.5
+          ],
+          [
+            214,
+            239.5
+          ],
+          [
+            199,
+            247.5
+          ],
+          [
+            187,
+            246.5
+          ],
+          [
+            178,
+            251.5
+          ],
+          [
+            175.5,
+            256
+          ],
+          [
+            176,
+            264.5
+          ],
+          [
+            158,
+            262.5
+          ],
+          [
+            155,
+            261.5
+          ],
+          [
+            153.5,
+            259
+          ],
+          [
+            164,
+            247.5
+          ],
+          [
+            169,
+            244.5
+          ],
+          [
+            175,
+            244.5
+          ],
+          [
+            176.5,
+            243
+          ],
+          [
+            173,
+            236.5
+          ],
+          [
+            165,
+            232.5
+          ],
+          [
+            158,
+            232.5
+          ],
+          [
+            144,
+            238.5
+          ],
+          [
+            123,
+            243.5
+          ],
+          [
+            107,
+            243.5
+          ],
+          [
+            98,
+            248.5
+          ],
+          [
+            92,
+            247.5
+          ],
+          [
+            88.5,
+            244
+          ],
+          [
+            88.5,
+            241
+          ],
+          [
+            97.5,
+            230
+          ],
+          [
+            99.5,
+            225
+          ],
+          [
+            104,
+            222.5
+          ],
+          [
+            107.5,
+            218
+          ],
+          [
+            106.5,
+            198
+          ],
+          [
+            108.5,
+            176
+          ],
+          [
+            119.5,
+            151
+          ],
+          [
+            125,
+            145.5
+          ],
+          [
+            134,
+            140.5
+          ],
+          [
+            137,
+            140.5
+          ],
+          [
+            140,
+            136.5
+          ]
+        ]
+      ],
+      "notes": "",
+      "mask_source": "sam_assisted",
+      "edited_after_sam": false,
+      "sam_assist": {
+        "score": 1.0002838373184204,
+        "mask_area_px": 10715,
+        "candidates": [
+          {
+            "score": 1.0002838373184204,
+            "area_px": 10715
+          }
+        ],
+        "selection_rule": "SAM-HQ internal max-IoU multimask (1 point) or single mask (>1 point)",
+        "points_orig": [
+          [
+            140.44,
+            179.3
+          ]
+        ],
+        "labels": [
+          1
+        ],
+        "multimask_index": 0,
+        "model": "sam-hq_vit_l",
+        "checkpoint": "sam_hq_vit_l.pth",
+        "checkpoint_sha256": "e1a6c385d62bf005ded91a54d5ec55c985cfc4103ef89c08d90f39f04934c343",
+        "device": "cuda:0",
+        "cuda_visible_devices": "1",
+        "torch": "2.11.0+cu128",
+        "simplify_tol_px": 1,
+        "min_component_px": 64,
+        "accepted_utc": "2026-10-22T10:59:54.478Z"
+      }
+    },
+    "B": {
+      "color": "green",
+      "color_confidence": "certain",
+      "garment_polygons_orig": [
+        [
+          [
+            377.5,
+            148
+          ],
+          [
+            380.5,
+            148
+          ],
+          [
+            380.5,
+            161
+          ],
+          [
+            385.5,
+            171
+          ],
+          [
+            395,
+            177.5
+          ],
+          [
+            401,
+            179.5
+          ],
+          [
+            407.5,
+            177
+          ],
+          [
+            412.5,
+            164
+          ],
+          [
+            412.5,
+            153
+          ],
+          [
+            417,
+            147.5
+          ],
+          [
+            430,
+            149.5
+          ],
+          [
+            439,
+            153.5
+          ],
+          [
+            454.5,
+            172
+          ],
+          [
+            458.5,
+            181
+          ],
+          [
+            471.5,
+            197
+          ],
+          [
+            471.5,
+            199
+          ],
+          [
+            462,
+            204.5
+          ],
+          [
+            452,
+            215.5
+          ],
+          [
+            450,
+            216.5
+          ],
+          [
+            442,
+            210.5
+          ],
+          [
+            440,
+            210.5
+          ],
+          [
+            439.5,
+            219
+          ],
+          [
+            438,
+            220.5
+          ],
+          [
+            429,
+            219.5
+          ],
+          [
+            420,
+            226.5
+          ],
+          [
+            408,
+            225.5
+          ],
+          [
+            384,
+            219.5
+          ],
+          [
+            374,
+            215.5
+          ],
+          [
+            366,
+            209.5
+          ],
+          [
+            361,
+            208.5
+          ],
+          [
+            348,
+            211.5
+          ],
+          [
+            344.5,
+            215
+          ],
+          [
+            344.5,
+            219
+          ],
+          [
+            343,
+            219.5
+          ],
+          [
+            341.5,
+            207
+          ],
+          [
+            342.5,
+            172
+          ],
+          [
+            346.5,
+            164
+          ],
+          [
+            357,
+            155.5
+          ]
+        ],
+        [
+          [
+            346.5,
+            230
+          ],
+          [
+            349.5,
+            231
+          ],
+          [
+            352.5,
+            238
+          ],
+          [
+            357.5,
+            242
+          ],
+          [
+            357.5,
+            244
+          ],
+          [
+            346,
+            259.5
+          ],
+          [
+            345.5,
+            244
+          ],
+          [
+            347.5,
+            240
+          ],
+          [
+            345.5,
+            231
+          ]
+        ]
+      ],
+      "notes": "",
+      "mask_source": "sam_assisted",
+      "edited_after_sam": false,
+      "sam_assist": {
+        "score": 1.00678551197052,
+        "mask_area_px": 6934,
+        "candidates": [
+          {
+            "score": 1.00678551197052,
+            "area_px": 6934
+          }
+        ],
+        "selection_rule": "SAM-HQ internal max-IoU multimask (1 point) or single mask (>1 point)",
+        "points_orig": [
+          [
+            385.86,
+            207.69
+          ]
+        ],
+        "labels": [
+          1
+        ],
+        "multimask_index": 0,
+        "model": "sam-hq_vit_l",
+        "checkpoint": "sam_hq_vit_l.pth",
+        "checkpoint_sha256": "e1a6c385d62bf005ded91a54d5ec55c985cfc4103ef89c08d90f39f04934c343",
+        "device": "cuda:0",
+        "cuda_visible_devices": "1",
+        "torch": "2.11.0+cu128",
+        "simplify_tol_px": 1,
+        "min_component_px": 64,
+        "accepted_utc": "2026-10-22T11:00:33.019Z"
+      }
+    }
+  },
+  "sham_translations_canvas": {
+    "A": [
+      -158,
+      38
+    ],
+    "B": [
+      197,
+      -21
+    ]
+  },
+  "review": {},
+  "rater_was_mask_author": null,
+  "notes": "",
+  "created_utc": "2026-10-22T11:01:17+00:00",
+  "updated_utc": "2026-10-22T11:01:17+00:00",
+  "tool_version": "eob-annotator-0.1"
+}

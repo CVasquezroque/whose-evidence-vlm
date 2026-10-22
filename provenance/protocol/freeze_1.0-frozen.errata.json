@@ -1,0 +1,5 @@
+{
+  "erratum": "After the 10:54Z freeze, docs/decisions.md was edited once to correct the D-020 timestamp from 11:00Z to 10:54Z; no other change.",
+  "frozen_sha256": "5ccec26c84357580863e10807769ad5ff8123d0dbda7f406b4ea724d4736c6a8",
+  "note": "Paths in freeze_1.0-frozen.SHA256SUMS refer to the pre-cleanup repository layout (docs/...), preserved in the private archive."
+}

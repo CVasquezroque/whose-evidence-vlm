@@ -1,0 +1,29 @@
+{
+ "config_class": "Qwen3_5Config",
+ "mm_mapping": "Qwen3_5ForConditionalGeneration",
+ "processor": "Qwen3VLProcessor",
+ "image_processor": "Qwen2VLImageProcessor",
+ "tokenizer": "Qwen3_5Tokenizer",
+ "model_class": "Qwen3_5ForConditionalGeneration",
+ "unique_params_meta": 4539265536,
+ "tied": true,
+ "template_tail": "d|><|vision_end|>For person A, what color? Return {\"label\":\"VALUE\"}.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+ "input_ids": [
+  1,
+  1058
+ ],
+ "image_grid_thw": [
+  [
+   1,
+   64,
+   64
+  ]
+ ],
+ "pixel_values": [
+  4096,
+  1536
+ ],
+ "fla": false,
+ "causal_conv1d": false,
+ "flash_attn": false
+}

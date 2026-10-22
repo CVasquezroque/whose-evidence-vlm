@@ -1,0 +1,108 @@
+{
+  "evidence_level": "pilot",
+  "annotation_status": "exploratory_single_rater",
+  "delta_hidden": {
+    "point": 0.16666666666666666,
+    "ci": [
+      0.0,
+      0.5
+    ],
+    "n_clusters": 3,
+    "n_scenes": 3,
+    "bootstrap_unit": "cluster",
+    "n_resamples": 10000,
+    "seed": 20261022,
+    "interval": "two-sided 95% percentile",
+    "numerator": 0.5,
+    "denominator": 3,
+    "numerator_definition": "sum of within-cluster mean scene contrasts"
+  },
+  "delta_visible": {
+    "point": 0.0,
+    "ci": [
+      0.0,
+      0.0
+    ],
+    "n_clusters": 3,
+    "n_scenes": 3,
+    "bootstrap_unit": "cluster",
+    "n_resamples": 10000,
+    "seed": 20261022,
+    "interval": "two-sided 95% percentile",
+    "numerator": 0.0,
+    "denominator": 3,
+    "numerator_definition": "sum of within-cluster mean scene contrasts"
+  },
+  "psi": {
+    "point": 0.16666666666666666,
+    "ci": [
+      0.0,
+      0.5
+    ],
+    "n_clusters": 3,
+    "n_scenes": 3,
+    "bootstrap_unit": "cluster",
+    "n_resamples": 10000,
+    "seed": 20261022,
+    "interval": "two-sided 95% percentile",
+    "numerator": 0.5,
+    "denominator": 3,
+    "numerator_definition": "sum of within-cluster mean scene contrasts"
+  },
+  "variant": "primary",
+  "scene_event_counts": {
+    "any_donor_match": {
+      "scene_events": 1,
+      "n_scenes": 3,
+      "cluster_events": 1,
+      "n_clusters": 3,
+      "zero_event_scene_upper_95": null,
+      "zero_event_cluster_upper_95": null,
+      "scene_bound_assumes_independent_scenes": true
+    },
+    "any_invalid": {
+      "scene_events": 2,
+      "n_scenes": 3,
+      "cluster_events": 2,
+      "n_clusters": 3,
+      "zero_event_scene_upper_95": null,
+      "zero_event_cluster_upper_95": null,
+      "scene_bound_assumes_independent_scenes": true
+    },
+    "any_task_failure": {
+      "scene_events": 3,
+      "n_scenes": 3,
+      "cluster_events": 3,
+      "n_clusters": 3,
+      "zero_event_scene_upper_95": null,
+      "zero_event_cluster_upper_95": null,
+      "scene_bound_assumes_independent_scenes": true
+    },
+    "full_factorial_success": {
+      "scene_events": 0,
+      "n_scenes": 3,
+      "cluster_events": 0,
+      "n_clusters": 3,
+      "zero_event_scene_upper_95": 0.6315968501359612,
+      "zero_event_cluster_upper_95": 0.6315968501359612,
+      "scene_bound_assumes_independent_scenes": true
+    }
+  },
+  "donor_match_count": 1,
+  "query_denominator": 24,
+  "primary_support": {
+    "status": "NOT_SUPPORTED",
+    "reasons": [
+      "psi lower 95% CI is not above zero",
+      "delta_hidden lower 95% CI is not above zero",
+      "Recognition, sham or JSON control gate failed",
+      "Valid-output rate is below 0.99",
+      "Adversarial invalid-output bounds do not retain both positive contrasts",
+      "Independent two-rater gold is not established for every scene",
+      "Pilot evidence is excluded from confirmatory support",
+      "Validation failed or remains unverified: inference_provenance, valid_rate"
+    ],
+    "practically_substantial": true,
+    "evidence_level": "pilot"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "n_queries": 84,
+  "n_parsed": 84,
+  "n_missing": 0,
+  "missing_query_ids": [],
+  "orphan_ok_query_ids": [],
+  "queries_path": "queries.jsonl",
+  "raw_predictions_path": "raw_predictions.jsonl",
+  "queries_sha256": "0157582bd4c959c70d1962253fc9efd7f8c746af957fabf549446ea22b5c3e42",
+  "raw_predictions_sha256": "07250d9a401ea63c7a2455181dcd1d5836cf2c4fe574459c50e890a34e83302b"
+}

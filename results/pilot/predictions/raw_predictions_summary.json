@@ -1,0 +1,10 @@
+{
+  "ok": 84,
+  "error": 0,
+  "skipped": 0,
+  "interrupted": false,
+  "n_selected": 84,
+  "n_complete": 84,
+  "failed_query_ids": [],
+  "raw_path": "<work_root>/runs/pilot_qwen35_A02/raw_predictions.jsonl"
+}

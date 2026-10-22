@@ -1,0 +1,320 @@
+{
+  "schema": "eob.annotation.v1",
+  "role": "author",
+  "annotator_id": "CEVR",
+  "scene_id": "train2017-000000412734",
+  "source_image_id": 412734,
+  "coco_split": "train2017",
+  "decision": "eligible",
+  "reject_reasons": [],
+  "checks": {
+    "exactly_two_people": true,
+    "boxes_correct": true,
+    "single_outer_garment_A": true,
+    "single_outer_garment_B": true,
+    "dominant_color_A": true,
+    "dominant_color_B": true,
+    "fully_coverable": true,
+    "colors_differ": true,
+    "designation_clear": true,
+    "sham_background_ok": true
+  },
+  "persons": {
+    "A": {
+      "color": "black",
+      "color_confidence": "certain",
+      "garment_polygons_orig": [
+        [
+          [
+            267.5,
+            240
+          ],
+          [
+            272,
+            239.5
+          ],
+          [
+            277,
+            241.5
+          ],
+          [
+            285.5,
+            248
+          ],
+          [
+            297.5,
+            267
+          ],
+          [
+            296,
+            271.5
+          ],
+          [
+            289,
+            269.5
+          ],
+          [
+            279,
+            273.5
+          ],
+          [
+            266,
+            274.5
+          ],
+          [
+            262,
+            276.5
+          ],
+          [
+            258.5,
+            283
+          ],
+          [
+            255,
+            285.5
+          ],
+          [
+            241,
+            286.5
+          ],
+          [
+            237,
+            286.5
+          ],
+          [
+            227,
+            276.5
+          ],
+          [
+            223,
+            276.5
+          ],
+          [
+            219.5,
+            274
+          ],
+          [
+            219.5,
+            271
+          ],
+          [
+            223.5,
+            263
+          ],
+          [
+            231.5,
+            251
+          ],
+          [
+            237,
+            246.5
+          ],
+          [
+            245,
+            242.5
+          ],
+          [
+            263,
+            244.5
+          ]
+        ]
+      ],
+      "notes": "",
+      "mask_source": "sam_assisted",
+      "edited_after_sam": false,
+      "sam_assist": {
+        "score": 0.9534184336662292,
+        "mask_area_px": 2339,
+        "candidates": [
+          {
+            "score": 0.9534184336662292,
+            "area_px": 2339
+          }
+        ],
+        "selection_rule": "SAM-HQ internal max-IoU multimask (1 point) or single mask (>1 point)",
+        "points_orig": [
+          [
+            255.32,
+            258.52
+          ],
+          [
+            270.98,
+            260.26
+          ],
+          [
+            253.58,
+            295.07
+          ]
+        ],
+        "labels": [
+          1,
+          1,
+          0
+        ],
+        "multimask_index": 0,
+        "model": "sam-hq_vit_l",
+        "checkpoint": "sam_hq_vit_l.pth",
+        "checkpoint_sha256": "e1a6c385d62bf005ded91a54d5ec55c985cfc4103ef89c08d90f39f04934c343",
+        "device": "cuda:0",
+        "cuda_visible_devices": "1",
+        "torch": "2.11.0+cu128",
+        "simplify_tol_px": 1,
+        "min_component_px": 64,
+        "accepted_utc": "2026-10-22T10:46:45.799Z"
+      }
+    },
+    "B": {
+      "color": "white",
+      "color_confidence": "certain",
+      "garment_polygons_orig": [
+        [
+          [
+            154.5,
+            208
+          ],
+          [
+            158.5,
+            208
+          ],
+          [
+            158.5,
+            216
+          ],
+          [
+            160.5,
+            220
+          ],
+          [
+            164,
+            222.5
+          ],
+          [
+            169,
+            222.5
+          ],
+          [
+            172.5,
+            219
+          ],
+          [
+            174,
+            208.5
+          ],
+          [
+            178,
+            207.5
+          ],
+          [
+            187.5,
+            213
+          ],
+          [
+            191.5,
+            221
+          ],
+          [
+            191.5,
+            226
+          ],
+          [
+            187,
+            226.5
+          ],
+          [
+            183.5,
+            229
+          ],
+          [
+            183.5,
+            238
+          ],
+          [
+            182,
+            239.5
+          ],
+          [
+            169,
+            241.5
+          ],
+          [
+            164,
+            239.5
+          ],
+          [
+            153,
+            240.5
+          ],
+          [
+            148.5,
+            237
+          ],
+          [
+            148.5,
+            228
+          ],
+          [
+            141,
+            226.5
+          ],
+          [
+            139.5,
+            223
+          ],
+          [
+            145.5,
+            212
+          ]
+        ]
+      ],
+      "notes": "",
+      "mask_source": "sam_assisted",
+      "edited_after_sam": false,
+      "sam_assist": {
+        "score": 0.9949795603752136,
+        "mask_area_px": 1126,
+        "candidates": [
+          {
+            "score": 0.9949795603752136,
+            "area_px": 1126
+          }
+        ],
+        "selection_rule": "SAM-HQ internal max-IoU multimask (1 point) or single mask (>1 point)",
+        "points_orig": [
+          [
+            156.11,
+            224.24
+          ]
+        ],
+        "labels": [
+          1
+        ],
+        "multimask_index": 0,
+        "model": "sam-hq_vit_l",
+        "checkpoint": "sam_hq_vit_l.pth",
+        "checkpoint_sha256": "e1a6c385d62bf005ded91a54d5ec55c985cfc4103ef89c08d90f39f04934c343",
+        "device": "cuda:0",
+        "cuda_visible_devices": "1",
+        "torch": "2.11.0+cu128",
+        "simplify_tol_px": 1,
+        "min_component_px": 64,
+        "accepted_utc": "2026-10-22T10:46:50.750Z"
+      }
+    }
+  },
+  "sham_translations_canvas": {
+    "A": [
+      105,
+      1
+    ],
+    "B": [
+      -79,
+      1
+    ]
+  },
+  "review": {},
+  "rater_was_mask_author": null,
+  "notes": "",
+  "created_utc": "2026-10-22T10:47:13+00:00",
+  "updated_utc": "2026-10-22T10:47:13+00:00",
+  "tool_version": "eob-annotator-0.1"
+}

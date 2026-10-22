@@ -1,0 +1,16 @@
+{
+  "evidence_level": "pilot",
+  "annotation_status": "exploratory_single_rater",
+  "input_sha256s": {
+    "<cohort subset of results/pilot/predictions/parsed_predictions.jsonl>/original": "6a54509eb3f65db701d08b9f2c7be15147bb56b03c9c161473239a19e5fddd07",
+    "<work_root>/manifests/items_pilot.jsonl": "1e3f7b0a5e25f958e53fc7e847ab2e7ebbcb179c38095dd188e8c924fdd2f952",
+    "<work_root>/manifests/items_heldout.jsonl": "4ac076e9bd416d48dabffb71a29d8d1b4587cf4c6c27928e3c58df2c46729358"
+  },
+  "code_version": "957d4e171260635fdcf0fe33e2e606dff20b48bf46ea58d9cca547ec5339392e",
+  "code_version_kind": "sha256_of_source_files_no_vcs",
+  "seed": 20261022,
+  "bootstrap_resamples": 10000,
+  "bootstrap_unit": "cluster",
+  "n_clusters": 3,
+  "n_scenes": 3
+}

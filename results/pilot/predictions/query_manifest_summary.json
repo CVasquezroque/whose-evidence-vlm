@@ -1,0 +1,400 @@
+{
+  "n_scenes": 5,
+  "n_queries": 84,
+  "skipped_scenes": [
+    {
+      "scene_id": "train2017-000000218389",
+      "status": "FAIL",
+      "checks": [
+        {
+          "name": "image_roundtrip",
+          "status": "PASS",
+          "detail": "[]"
+        },
+        {
+          "name": "mask_roundtrip",
+          "status": "PASS",
+          "detail": "[]"
+        },
+        {
+          "name": "masks_disjoint",
+          "status": "PASS",
+          "detail": "[]"
+        },
+        {
+          "name": "no_clipping",
+          "status": "PASS",
+          "detail": "[]"
+        },
+        {
+          "name": "sham_translation",
+          "status": "PASS",
+          "detail": "Shams must be exact integer translations"
+        },
+        {
+          "name": "shams_inside_content",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "shams_outside_person_bboxes",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "equal_applied_mask_area",
+          "status": "PASS",
+          "detail": "{'I11': 13555, 'I01': 13555, 'I10': 13555, 'I00': 13555}"
+        },
+        {
+          "name": "masked_fraction",
+          "status": "PASS",
+          "detail": "{'I11': 13555, 'I01': 13555, 'I10': 13555, 'I00': 13555}"
+        },
+        {
+          "name": "garment_size_A",
+          "status": "FAIL",
+          "detail": "{'width': 33, 'height': 25, 'area': 520, 'cohorts': {'original': False, 'moderate': False, 'expanded': False}}"
+        },
+        {
+          "name": "garment_size_B",
+          "status": "PASS",
+          "detail": "{'width': 105, 'height': 138, 'area': 10320, 'cohorts': {'original': True, 'moderate': True, 'expanded': True}}"
+        },
+        {
+          "name": "pixel_preservation_I11",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "complete_removal_I11",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "pixel_preservation_I01",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "complete_removal_I01",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "pixel_preservation_I10",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "complete_removal_I10",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "pixel_preservation_I00",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "complete_removal_I00",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "garment_inside_own_box_A",
+          "status": "PASS",
+          "detail": "{'fraction_inside': 1.0}"
+        },
+        {
+          "name": "garment_inside_own_box_B",
+          "status": "PASS",
+          "detail": "{'fraction_inside': 1.0}"
+        },
+        {
+          "name": "marker_keepout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "tag_reversal_only_tags",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "distinct_valid_colors",
+          "status": "PASS",
+          "detail": "['white', 'black']"
+        }
+      ],
+      "render_record": "rendered/pilot/train2017-000000218389/render_record.json"
+    },
+    {
+      "scene_id": "train2017-000000469119",
+      "status": "FAIL",
+      "checks": [
+        {
+          "name": "image_roundtrip",
+          "status": "PASS",
+          "detail": "[]"
+        },
+        {
+          "name": "mask_roundtrip",
+          "status": "PASS",
+          "detail": "[]"
+        },
+        {
+          "name": "masks_disjoint",
+          "status": "PASS",
+          "detail": "[]"
+        },
+        {
+          "name": "no_clipping",
+          "status": "PASS",
+          "detail": "[]"
+        },
+        {
+          "name": "sham_translation",
+          "status": "PASS",
+          "detail": "Shams must be exact integer translations"
+        },
+        {
+          "name": "shams_inside_content",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "shams_outside_person_bboxes",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "equal_applied_mask_area",
+          "status": "PASS",
+          "detail": "{'I11': 4691, 'I01': 4691, 'I10': 4691, 'I00': 4691}"
+        },
+        {
+          "name": "masked_fraction",
+          "status": "PASS",
+          "detail": "{'I11': 4691, 'I01': 4691, 'I10': 4691, 'I00': 4691}"
+        },
+        {
+          "name": "garment_size_A",
+          "status": "PASS",
+          "detail": "{'width': 46, 'height': 48, 'area': 1358, 'cohorts': {'original': False, 'moderate': False, 'expanded': True}}"
+        },
+        {
+          "name": "garment_size_B",
+          "status": "PASS",
+          "detail": "{'width': 39, 'height': 59, 'area': 1512, 'cohorts': {'original': False, 'moderate': False, 'expanded': True}}"
+        },
+        {
+          "name": "pixel_preservation_I11",
+          "status": "FAIL",
+          "detail": ""
+        },
+        {
+          "name": "complete_removal_I11",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "pixel_preservation_I01",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "complete_removal_I01",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "pixel_preservation_I10",
+          "status": "FAIL",
+          "detail": ""
+        },
+        {
+          "name": "complete_removal_I10",
+          "status": "FAIL",
+          "detail": ""
+        },
+        {
+          "name": "pixel_preservation_I00",
+          "status": "FAIL",
+          "detail": ""
+        },
+        {
+          "name": "complete_removal_I00",
+          "status": "FAIL",
+          "detail": ""
+        },
+        {
+          "name": "garment_inside_own_box_A",
+          "status": "PASS",
+          "detail": "{'fraction_inside': 0.912}"
+        },
+        {
+          "name": "garment_inside_own_box_B",
+          "status": "PASS",
+          "detail": "{'fraction_inside': 1.0}"
+        },
+        {
+          "name": "marker_keepout",
+          "status": "FAIL",
+          "detail": ""
+        },
+        {
+          "name": "tag_reversal_only_tags",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "distinct_valid_colors",
+          "status": "PASS",
+          "detail": "['blue', 'yellow']"
+        }
+      ],
+      "render_record": "rendered/pilot/train2017-000000469119/render_record.json"
+    },
+    {
+      "scene_id": "train2017-000000537371",
+      "status": "FAIL",
+      "checks": [
+        {
+          "name": "image_roundtrip",
+          "status": "PASS",
+          "detail": "[]"
+        },
+        {
+          "name": "mask_roundtrip",
+          "status": "PASS",
+          "detail": "[]"
+        },
+        {
+          "name": "masks_disjoint",
+          "status": "FAIL",
+          "detail": "['M_A/M_B']"
+        },
+        {
+          "name": "no_clipping",
+          "status": "PASS",
+          "detail": "[]"
+        },
+        {
+          "name": "sham_translation",
+          "status": "PASS",
+          "detail": "Shams must be exact integer translations"
+        },
+        {
+          "name": "shams_inside_content",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "shams_outside_person_bboxes",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "equal_applied_mask_area",
+          "status": "FAIL",
+          "detail": "{'I11': 39973, 'I01': 39973, 'I10': 39973, 'I00': 39869}"
+        },
+        {
+          "name": "masked_fraction",
+          "status": "PASS",
+          "detail": "{'I11': 39973, 'I01': 39973, 'I10': 39973, 'I00': 39869}"
+        },
+        {
+          "name": "garment_size_A",
+          "status": "PASS",
+          "detail": "{'width': 270, 'height': 132, 'area': 23111, 'cohorts': {'original': True, 'moderate': True, 'expanded': True}}"
+        },
+        {
+          "name": "garment_size_B",
+          "status": "PASS",
+          "detail": "{'width': 144, 'height': 113, 'area': 11054, 'cohorts': {'original': True, 'moderate': True, 'expanded': True}}"
+        },
+        {
+          "name": "pixel_preservation_I11",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "complete_removal_I11",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "pixel_preservation_I01",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "complete_removal_I01",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "pixel_preservation_I10",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "complete_removal_I10",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "pixel_preservation_I00",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "complete_removal_I00",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "garment_inside_own_box_A",
+          "status": "FAIL",
+          "detail": "{'fraction_inside': 0.0}"
+        },
+        {
+          "name": "garment_inside_own_box_B",
+          "status": "FAIL",
+          "detail": "{'fraction_inside': 0.0}"
+        },
+        {
+          "name": "marker_keepout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "tag_reversal_only_tags",
+          "status": "SKIPPED",
+          "detail": "No tag reversal requested"
+        },
+        {
+          "name": "distinct_valid_colors",
+          "status": "PASS",
+          "detail": "['blue', 'white']"
+        }
+      ],
+      "render_record": "rendered/pilot/train2017-000000537371/render_record.json"
+    }
+  ],
+  "counts_by_condition": {
+    "I11": 16,
+    "I01": 16,
+    "I10": 16,
+    "I00": 16,
+    "clean": 10,
+    "iso": 10
+  },
+  "counts_by_variant": {
+    "primary": 60,
+    "tag_reversal": 24
+  },
+  "dry_run": false
+}

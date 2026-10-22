@@ -1,0 +1,419 @@
+{
+  "evidence_level": "pilot",
+  "annotation_status": "exploratory_single_rater",
+  "amendment": "A02 / D-021",
+  "note": "EXPLORATORY: single rater, pilot gates not met",
+  "scene_flags": {
+    "train2017-000000009450": {
+      "original": false,
+      "moderate": true,
+      "expanded": true,
+      "size_only": {
+        "original": false,
+        "moderate": true,
+        "expanded": true
+      },
+      "render_status": "PASS",
+      "measurements": {
+        "A": {
+          "width": 43,
+          "height": 77,
+          "area": 2320
+        },
+        "B": {
+          "width": 72,
+          "height": 76,
+          "area": 2989
+        }
+      }
+    },
+    "train2017-000000149314": {
+      "original": true,
+      "moderate": true,
+      "expanded": true,
+      "size_only": {
+        "original": true,
+        "moderate": true,
+        "expanded": true
+      },
+      "render_status": "PASS",
+      "measurements": {
+        "A": {
+          "width": 61,
+          "height": 89,
+          "area": 3613
+        },
+        "B": {
+          "width": 146,
+          "height": 191,
+          "area": 18717
+        }
+      }
+    },
+    "train2017-000000218389": {
+      "original": false,
+      "moderate": false,
+      "expanded": false,
+      "size_only": {
+        "original": false,
+        "moderate": false,
+        "expanded": false
+      },
+      "render_status": "FAIL",
+      "measurements": {
+        "A": {
+          "width": 33,
+          "height": 25,
+          "area": 520
+        },
+        "B": {
+          "width": 105,
+          "height": 138,
+          "area": 10320
+        }
+      }
+    },
+    "train2017-000000334523": {
+      "original": true,
+      "moderate": true,
+      "expanded": true,
+      "size_only": {
+        "original": true,
+        "moderate": true,
+        "expanded": true
+      },
+      "render_status": "PASS",
+      "measurements": {
+        "A": {
+          "width": 59,
+          "height": 71,
+          "area": 2834
+        },
+        "B": {
+          "width": 75,
+          "height": 96,
+          "area": 4127
+        }
+      }
+    },
+    "train2017-000000440244": {
+      "original": true,
+      "moderate": true,
+      "expanded": true,
+      "size_only": {
+        "original": true,
+        "moderate": true,
+        "expanded": true
+      },
+      "render_status": "PASS",
+      "measurements": {
+        "A": {
+          "width": 109,
+          "height": 100,
+          "area": 7555
+        },
+        "B": {
+          "width": 116,
+          "height": 109,
+          "area": 8731
+        }
+      }
+    },
+    "train2017-000000469119": {
+      "original": false,
+      "moderate": false,
+      "expanded": false,
+      "size_only": {
+        "original": false,
+        "moderate": false,
+        "expanded": true
+      },
+      "render_status": "FAIL",
+      "measurements": {
+        "A": {
+          "width": 46,
+          "height": 48,
+          "area": 1358
+        },
+        "B": {
+          "width": 39,
+          "height": 59,
+          "area": 1512
+        }
+      }
+    },
+    "train2017-000000511506": {
+      "original": false,
+      "moderate": false,
+      "expanded": true,
+      "size_only": {
+        "original": false,
+        "moderate": false,
+        "expanded": true
+      },
+      "render_status": "PASS",
+      "measurements": {
+        "A": {
+          "width": 47,
+          "height": 47,
+          "area": 1386
+        },
+        "B": {
+          "width": 58,
+          "height": 44,
+          "area": 1277
+        }
+      }
+    },
+    "train2017-000000537371": {
+      "original": false,
+      "moderate": false,
+      "expanded": false,
+      "size_only": {
+        "original": true,
+        "moderate": true,
+        "expanded": true
+      },
+      "render_status": "FAIL",
+      "measurements": {
+        "A": {
+          "width": 270,
+          "height": 132,
+          "area": 23111
+        },
+        "B": {
+          "width": 144,
+          "height": 113,
+          "area": 11054
+        }
+      }
+    }
+  },
+  "cohorts": {
+    "original": {
+      "n_scenes": 3,
+      "n_queries": 44,
+      "clean_accuracy": {
+        "k": 5,
+        "n": 6,
+        "rate": 0.8333333333333334
+      },
+      "both_sham_I11_accuracy": {
+        "k": 5,
+        "n": 6,
+        "rate": 0.8333333333333334
+      },
+      "isolated_accuracy": {
+        "k": 5,
+        "n": 6,
+        "rate": 0.8333333333333334
+      },
+      "visible_target_accuracy_single_hidden": {
+        "k": 5,
+        "n": 6,
+        "rate": 0.8333333333333334
+      },
+      "hidden_target_responses": {
+        "gray_occluder": 4,
+        "invalid": 3,
+        "other_color": 1,
+        "UNKNOWN": 2,
+        "donor_color": 1,
+        "target_own_color": 1
+      },
+      "hidden_target_UNKNOWN": {
+        "k": 2,
+        "n": 12,
+        "rate": 0.16666666666666666
+      },
+      "valid_output_rate": {
+        "k": 40,
+        "n": 44,
+        "rate": 0.9090909090909091
+      },
+      "scene_ids": [
+        "train2017-000000149314",
+        "train2017-000000334523",
+        "train2017-000000440244"
+      ],
+      "estimands": {
+        "delta_hidden": {
+          "point": 0.16666666666666666,
+          "ci95": [
+            0.0,
+            0.5
+          ],
+          "n_clusters": 3
+        },
+        "delta_visible": {
+          "point": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_clusters": 3
+        },
+        "psi": {
+          "point": 0.16666666666666666,
+          "ci95": [
+            0.0,
+            0.5
+          ],
+          "n_clusters": 3
+        }
+      },
+      "verdict": null
+    },
+    "moderate": {
+      "n_scenes": 4,
+      "n_queries": 64,
+      "clean_accuracy": {
+        "k": 7,
+        "n": 8,
+        "rate": 0.875
+      },
+      "both_sham_I11_accuracy": {
+        "k": 7,
+        "n": 8,
+        "rate": 0.875
+      },
+      "isolated_accuracy": {
+        "k": 7,
+        "n": 8,
+        "rate": 0.875
+      },
+      "visible_target_accuracy_single_hidden": {
+        "k": 6,
+        "n": 8,
+        "rate": 0.75
+      },
+      "hidden_target_responses": {
+        "gray_occluder": 8,
+        "invalid": 3,
+        "other_color": 1,
+        "UNKNOWN": 2,
+        "donor_color": 1,
+        "target_own_color": 1
+      },
+      "hidden_target_UNKNOWN": {
+        "k": 2,
+        "n": 16,
+        "rate": 0.125
+      },
+      "valid_output_rate": {
+        "k": 57,
+        "n": 64,
+        "rate": 0.890625
+      },
+      "scene_ids": [
+        "train2017-000000009450",
+        "train2017-000000149314",
+        "train2017-000000334523",
+        "train2017-000000440244"
+      ],
+      "estimands": {
+        "delta_hidden": {
+          "point": 0.125,
+          "ci95": [
+            0.0,
+            0.375
+          ],
+          "n_clusters": 4
+        },
+        "delta_visible": {
+          "point": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_clusters": 4
+        },
+        "psi": {
+          "point": 0.125,
+          "ci95": [
+            0.0,
+            0.375
+          ],
+          "n_clusters": 4
+        }
+      },
+      "verdict": null
+    },
+    "expanded": {
+      "n_scenes": 5,
+      "n_queries": 84,
+      "clean_accuracy": {
+        "k": 9,
+        "n": 10,
+        "rate": 0.9
+      },
+      "both_sham_I11_accuracy": {
+        "k": 9,
+        "n": 10,
+        "rate": 0.9
+      },
+      "isolated_accuracy": {
+        "k": 9,
+        "n": 10,
+        "rate": 0.9
+      },
+      "visible_target_accuracy_single_hidden": {
+        "k": 8,
+        "n": 10,
+        "rate": 0.8
+      },
+      "hidden_target_responses": {
+        "gray_occluder": 8,
+        "invalid": 3,
+        "other_color": 1,
+        "UNKNOWN": 6,
+        "donor_color": 1,
+        "target_own_color": 1
+      },
+      "hidden_target_UNKNOWN": {
+        "k": 6,
+        "n": 20,
+        "rate": 0.3
+      },
+      "valid_output_rate": {
+        "k": 74,
+        "n": 84,
+        "rate": 0.8809523809523809
+      },
+      "scene_ids": [
+        "train2017-000000009450",
+        "train2017-000000149314",
+        "train2017-000000334523",
+        "train2017-000000440244",
+        "train2017-000000511506"
+      ],
+      "estimands": {
+        "delta_hidden": {
+          "point": 0.1,
+          "ci95": [
+            0.0,
+            0.3
+          ],
+          "n_clusters": 5
+        },
+        "delta_visible": {
+          "point": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_clusters": 5
+        },
+        "psi": {
+          "point": 0.1,
+          "ci95": [
+            0.0,
+            0.3
+          ],
+          "n_clusters": 5
+        }
+      },
+      "verdict": null
+    }
+  }
+}

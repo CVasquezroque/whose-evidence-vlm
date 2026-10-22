@@ -1,0 +1,50 @@
+{
+  "amendment": "A01",
+  "title": "train2017 prospective replication cohort and time-boxed pilot",
+  "protocol_base": "1.0-proposed",
+  "recorded_utc": "2026-10-22T09:38:43Z",
+  "registration": "internal hash-locked amendment; NOT an external preregistration",
+  "state_at_recording": {
+    "human_annotation_records": 0,
+    "val2017_model_outputs": 0,
+    "pilot_model_outputs": 0,
+    "smoke_test_outputs": "68 (placeholder masks, D-011)"
+  },
+  "cohorts": {
+    "pilot": {
+      "split": "train2017",
+      "pool": "pilot_train2017_pool.jsonl",
+      "n": 300,
+      "order_rank_max": 551,
+      "stop": "first of 8 author-eligible scenes or 30 min screening; proceed with >=5, else record shortfall"
+    },
+    "original_evaluation": {
+      "split": "val2017",
+      "pool": "candidates_val2017.jsonl size_prescreen_pass",
+      "n": 158,
+      "stop": "all 158 examined or 80 eligible clusters; record last examined rank",
+      "status_if_single_rater": "exploratory_single_rater"
+    },
+    "extension": {
+      "split": "train2017",
+      "pool": "extension_train2017_pool.jsonl",
+      "n": 3789,
+      "order_rank_min": 555,
+      "stop": "first 80 two-rater-agreed eligible clusters; expansion to 200 only before extension inference",
+      "exclude": "near_duplicate_of_pilot"
+    }
+  },
+  "pooling": "none; cohorts reported separately",
+  "sha256": {
+    "pilot_train2017_pool.jsonl": "f6af66f82d774b26d02709cb44cfbcfae48554bac4c442915c21f3398f2f3d9a",
+    "extension_train2017_pool.jsonl": "ce26cd44a084ded9c2b68596283d16f2e06127c98c4ba7e8ace2278b3cc85a85",
+    "configs/experiment.yaml": "01071afe0c8acce8962045e63348f2d7dbcc207eff4f78f3ffae58843b024314",
+    "configs/inference.yaml": "2d8ab360bf3f892219a85fbb144cf76be4b30c2f3104a18043117bd00e3bd805",
+    "configs/model.yaml": "9733bd20de34f4a13f60d56dc1928b547916aea6a5950fa6d5efde34323de55a",
+    "astra/PROPOSED_PROTOCOL.json": "c5568e1fd3ffcb53205c6e9b7842ebc26f1c946e8f6c751e14a73e62fe6466fc",
+    "astra/RESEARCH_DECISION_REPORT.md": "287bd7dad0004c307f94ce6dca911712fa8ba6f16f793e0bde9a03d83a6d4949",
+    "work_root/manifests/candidates_train2017.jsonl": "da056220a868261f5978df42182b9bfc1b7bd7aa882f2c63ec48a3556029f93d",
+    "work_root/manifests/candidates_val2017.jsonl": "d8713ca0230006daf7309e3836ae0a2b362af61575c1a7afa4d91f17197601cb",
+    "AMENDMENT.md": "228341daa8fb3a970f35786f0e5f6938aea12903a15217078c2fed23b4639b75"
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "schema": "eob.render.v1",
+  "scene_id": "train2017-000000009450",
+  "study_split": "pilot",
+  "cluster_id": "train2017-000000009450",
+  "renderer_version": "1.0.0",
+  "pillow_version": "12.3.0",
+  "input_sha256": "39823bcb14a23593ba116f94c86e4f8503311d030307cf8127868f75252d0d83",
+  "source_image_sha256": "91e8aca76be17277e016eeae0c7a699352addaa642ec3929a6af9c920e8e65f4",
+  "canvas_transform": {
+    "scale": 1.0,
+    "offset": [
+      192,
+      272
+    ],
+    "resized_size": [
+      640,
+      480
+    ],
+    "canvas_size": [
+      1024,
+      1024
+    ],
+    "orig_size": [
+      640,
+      480
+    ]
+  },
+  "mask_areas": {
+    "M_A": 3630,
+    "S_A": 3630,
+    "M_B": 4527,
+    "S_B": 4527
+  },
+  "applied_mask_area": {
+    "I11": 8157,
+    "I01": 8157,
+    "I10": 8157,
+    "I00": 8157
+  },
+  "masked_canvas_fraction": {
+    "I11": 0.007779121398925781,
+    "I01": 0.007779121398925781,
+    "I10": 0.007779121398925781,
+    "I00": 0.007779121398925781
+  },
+  "garment_bbox_canvas": {
+    "A": [
+      356,
+      354,
+      399,
+      431
+    ],
+    "B": [
+      487,
+      460,
+      559,
+      536
+    ]
+  },
+  "garment_measurements_canvas": {
+    "A": {
+      "width": 43,
+      "height": 77,
+      "area": 2320
+    },
+    "B": {
+      "width": 72,
+      "height": 76,
+      "area": 2989
+    }
+  },
+  "marker_geometry": {
+    "A": {
+      "box": [
+        347,
+        316,
+        407,
+        522
+      ],
+      "tag": [
+        347,
+        289,
+        372,
+        313
+      ]
+    },
+    "B": {
+      "box": [
+        466,
+        423,
+        567,
+        600
+      ],
+      "tag": [
+        466,
+        396,
+        491,
+        420
+      ]
+    }
+  },
+  "images": {
+    "canvas": {
+      "path": "rendered/pilot/train2017-000000009450/canvas.png",
+      "sha256": "5f6caaecec90a7850b42f6709cd018b7fb43ff500938fd1b076e19d734ec6e77",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "clean": {
+      "path": "rendered/pilot/train2017-000000009450/clean.png",
+      "sha256": "4b8e1abeca357f78273397e9876ac47a8fa493194fc7d7ce0a7c1b69988c7505",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "I11": {
+      "path": "rendered/pilot/train2017-000000009450/I11.png",
+      "sha256": "3ecc2ced5cec763f3e4a20eb55bb517314b264aee2cbeaf112ff49c8b1002d57",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "tagrev_I11": {
+      "path": "rendered/pilot/train2017-000000009450/tagrev_I11.png",
+      "sha256": "a4fd39d853a9fdfb45e935df9d71f1cad89ac7325f04494701113b9de97bc06d",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "I01": {
+      "path": "rendered/pilot/train2017-000000009450/I01.png",
+      "sha256": "7a2593144c5b6c6f09527ec92c31c3ad4d1840eeab7676b57793e19d2cc9a7cb",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "tagrev_I01": {
+      "path": "rendered/pilot/train2017-000000009450/tagrev_I01.png",
+      "sha256": "2df43adf44ed7ee47bbdb7e0850ffa757fd9a6695d5bf3198e628d56d73f6d91",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "I10": {
+      "path": "rendered/pilot/train2017-000000009450/I10.png",
+      "sha256": "06a258964cb7e966a1b588b4a3c4993cced1ff2b251c5822307352b6dd14f69c",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "tagrev_I10": {
+      "path": "rendered/pilot/train2017-000000009450/tagrev_I10.png",
+      "sha256": "30ae93bf4d643ccd6510a84abf7f3bc10c6aef1677cf05043053fb8c4f4928de",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "I00": {
+      "path": "rendered/pilot/train2017-000000009450/I00.png",
+      "sha256": "084f0135d719a254ea56315c5fd3c418b1375ab3be880b7f817804906bdd5498",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "tagrev_I00": {
+      "path": "rendered/pilot/train2017-000000009450/tagrev_I00.png",
+      "sha256": "42298d41fa05344b7003bb4261d017819743682ef5b0a67c4a2ceb730482d339",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "iso_A": {
+      "path": "rendered/pilot/train2017-000000009450/iso_A.png",
+      "sha256": "b66442b6407038d2a8b8c279bed42025dc4312b69ed4bc104884965b2b0762e7",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "iso_B": {
+      "path": "rendered/pilot/train2017-000000009450/iso_B.png",
+      "sha256": "c91364da172340beed99f166e9e7cec3443b2309cf93c24542a3368198536650",
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "gold": {
+    "clean": {
+      "A": {
+        "visible": true,
+        "task_gold": "orange"
+      },
+      "B": {
+        "visible": true,
+        "task_gold": "green"
+      }
+    },
+    "canvas": {
+      "A": {
+        "visible": true,
+        "task_gold": "orange"
+      },
+      "B": {
+        "visible": true,
+        "task_gold": "green"
+      }
+    },
+    "I11": {
+      "A": {
+        "visible": true,
+        "task_gold": "orange"
+      },
+      "B": {
+        "visible": true,
+        "task_gold": "green"
+      }
+    },
+    "tagrev_I11": {
+      "A": {
+        "visible": true,
+        "task_gold": "orange"
+      },
+      "B": {
+        "visible": true,
+        "task_gold": "green"
+      }
+    },
+    "I01": {
+      "A": {
+        "visible": false,
+        "task_gold": "UNKNOWN"
+      },
+      "B": {
+        "visible": true,
+        "task_gold": "green"
+      }
+    },
+    "tagrev_I01": {
+      "A": {
+        "visible": false,
+        "task_gold": "UNKNOWN"
+      },
+      "B": {
+        "visible": true,
+        "task_gold": "green"
+      }
+    },
+    "I10": {
+      "A": {
+        "visible": true,
+        "task_gold": "orange"
+      },
+      "B": {
+        "visible": false,
+        "task_gold": "UNKNOWN"
+      }
+    },
+    "tagrev_I10": {
+      "A": {
+        "visible": true,
+        "task_gold": "orange"
+      },
+      "B": {
+        "visible": false,
+        "task_gold": "UNKNOWN"
+      }
+    },
+    "I00": {
+      "A": {
+        "visible": false,
+        "task_gold": "UNKNOWN"
+      },
+      "B": {
+        "visible": false,
+        "task_gold": "UNKNOWN"
+      }
+    },
+    "tagrev_I00": {
+      "A": {
+        "visible": false,
+        "task_gold": "UNKNOWN"
+      },
+      "B": {
+        "visible": false,
+        "task_gold": "UNKNOWN"
+      }
+    },
+    "iso_A": {
+      "A": {
+        "visible": true,
+        "task_gold": "orange"
+      }
+    },
+    "iso_B": {
+      "B": {
+        "visible": true,
+        "task_gold": "green"
+      }
+    }
+  },
+  "checks": [
+    {
+      "name": "image_roundtrip",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "mask_roundtrip",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "masks_disjoint",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "no_clipping",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "sham_translation",
+      "status": "PASS",
+      "detail": "Shams must be exact integer translations"
+    },
+    {
+      "name": "shams_inside_content",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "shams_outside_person_bboxes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "equal_applied_mask_area",
+      "status": "PASS",
+      "detail": "{'I11': 8157, 'I01': 8157, 'I10': 8157, 'I00': 8157}"
+    },
+    {
+      "name": "masked_fraction",
+      "status": "PASS",
+      "detail": "{'I11': 8157, 'I01': 8157, 'I10': 8157, 'I00': 8157}"
+    },
+    {
+      "name": "garment_size_A",
+      "status": "PASS",
+      "detail": "{'width': 43, 'height': 77, 'area': 2320, 'cohorts': {'original': False, 'moderate': True, 'expanded': True}}"
+    },
+    {
+      "name": "garment_size_B",
+      "status": "PASS",
+      "detail": "{'width': 72, 'height': 76, 'area': 2989, 'cohorts': {'original': True, 'moderate': True, 'expanded': True}}"
+    },
+    {
+      "name": "pixel_preservation_I11",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "complete_removal_I11",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "pixel_preservation_I01",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "complete_removal_I01",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "pixel_preservation_I10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "complete_removal_I10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "pixel_preservation_I00",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "complete_removal_I00",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "garment_inside_own_box_A",
+      "status": "PASS",
+      "detail": "{'fraction_inside': 1.0}"
+    },
+    {
+      "name": "garment_inside_own_box_B",
+      "status": "PASS",
+      "detail": "{'fraction_inside': 1.0}"
+    },
+    {
+      "name": "marker_keepout",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "tag_reversal_only_tags",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "distinct_valid_colors",
+      "status": "PASS",
+      "detail": "['orange', 'green']"
+    }
+  ],
+  "status": "PASS"
+}
